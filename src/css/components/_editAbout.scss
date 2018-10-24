@@ -1,0 +1,100 @@
+.editAbout {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 32px;
+
+	&__left {
+		width: 50%;
+	}
+
+	&__right {
+		width: 45%;
+	}
+
+	&__rightTop {
+		margin-bottom: 20px;
+	}
+
+	&__rightBottom {
+		border: 3px dashed #c6c6c6;
+		text-align: center;
+		padding: 40px 40px 30px 40px;
+		height: 300px;
+	}
+
+	&__title {
+		@include font($suir, 19px, #404040);
+
+	}
+
+	&__link {
+		@include font($suisl, 16px, #32bef1);
+	}
+
+	&__link2 {
+		@include font($suisb, 16px, #32bef1);
+	}
+
+	&__leftTop {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+	}
+
+	&__textarea {
+		width: 100%;
+		height: 252px;
+		padding: 20px 20px;
+		@include font($suir, 14px, #6a6a6a);
+		border: 1px solid #c5c4c4;
+		border-radius: 3px;
+
+
+	}
+
+	&__input {
+		width: 100%;
+		@include font($suir, 14px, #6c6c6c);
+		padding: 9px 20px;
+		border: 1px solid #c5c4c4;
+		border-radius: 3px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+
+	&__bottom {
+		text-align: right;
+	}
+
+	&__rightTop {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__inputRight {
+		width: 0;
+		visibility: hidden;
+	}
+
+	&__label {
+		text-transform: uppercase;
+		@include font($suir, 13px, #3c3c3c);
+		border: 2px solid #32bef1;
+		border-radius: 22px;
+		padding: 11px 68px;
+		margin-top: 30px;
+		margin-bottom: 23px;
+		cursor:pointer;
+		background-color: #fff;
+	}
+
+	&__paragraph {
+		@include font($suir, 15px, #5c5b5b);
+
+	}
+
+}

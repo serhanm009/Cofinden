@@ -1,0 +1,56 @@
+.notificationList {
+	border-width: 0.88px;
+	border-color: rgb(200, 200, 200);
+	border-style: solid;
+	border-radius: 4px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.16);
+	width: 280px;
+
+    position: absolute;
+    top: 87px;
+    right: 120px;
+
+    display: none;
+
+		&__item {
+			display: flex;
+			align-items: center;
+			padding: 17px 0px 10px 17px;
+			border-bottom: 1px solid #cfcfcf;
+
+
+		}
+
+		&__itemRight {
+			display: flex;
+			flex-direction: column;
+		}
+
+		&__logo {
+			border: 1px solid #cfcfcf;
+			padding: 11px 2px;
+			margin-right: 13px;
+		}
+
+		&__title {
+			@include font($suisb, 1.4rem, #555555);
+			margin: 0;
+			
+		}
+		&__type {
+			@include font($suil, 1.4rem, #6a6a6a);
+			
+		}
+		&__date {
+			@include font($suir, 1.2rem, #888888);
+
+		}
+
+		&__link {
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}

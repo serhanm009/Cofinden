@@ -1,0 +1,92 @@
+.aboutFooter{
+	text-align: center;
+
+	&__top{
+		height: 84px;
+		background-color: #f3f7f8;
+	}
+
+	&__nav{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		line-height: 5;
+
+	}
+
+	&__navItem{
+		@include font($suisl, 17px, #626262);
+		display: inline-block;
+		&:not(:last-child){
+			margin-right: 40px;
+
+		}
+	}
+
+	&__select {
+		width: 120px;
+		height: 35px;
+		padding: 0px 0px 3px 8px;
+		background-color: #f3f7f8;
+
+	}
+
+	&__link{
+		@include font($suisl, 17px, #626262);
+
+		&:hover {
+			text-decoration: none;
+			color: #626262;
+		}
+
+
+	}
+
+	&__language {
+		text-align: center;
+	}
+
+	&__bottom{
+		height: 84px;
+		background-color: #099999;
+
+	}
+
+	&__list{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		line-height: 6;
+
+	}
+
+	&__listItem{
+		display: inline-block;
+		&:not(:last-child){
+			margin-right: 40px;
+
+		}
+	}
+
+	&__listLink{
+		@include font($suir, 15px, #ffffff);
+
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+
+	}
+
+	&__logo {
+		width: 90px;
+		height: 33px;
+		color: #fff;
+	}
+}
+
+.active {
+	color: #0d0d0d;
+}
+
+

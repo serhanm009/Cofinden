@@ -1,0 +1,53 @@
+.noTender {
+
+	&__top {
+		display:flex;
+		padding: 20px 0;
+	}
+
+	&__topList {
+		list-style-type: none;
+		padding: 0 0 0 120px;
+	}
+
+	&__topListItem {
+		display:inline;
+		@include font($suir, 1.6rem, #464545);
+
+		&:not(:last-child){
+			margin-right: 50px;
+		}
+		&:last-child {
+			margin-left: 20px;
+
+		}
+	}
+
+	&__topLink {
+
+	}
+	&__icon {
+		margin-right: 10px;
+		color: #fff;
+	}
+
+}
+
+.page {
+	display: flex;
+}
+
+.postATenderBox {
+	display: flex;
+	height: 45px;
+	color: #fff;
+}
+
+.postATender{
+	display: flex;
+	background-color: #32bef1;
+    padding: 11px 15px;
+    margin-left: 57px;
+	@include font($suir, 1.6rem, #fff);
+}
+

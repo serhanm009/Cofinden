@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cofinden</title>
+    <meta name="description" content="">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- <meta name="viewport" content="initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" href="libs/normalize.css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <link rel="stylesheet" href="css/main/main.min.css">
+</head>
+<body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+					<!-- modal add button -->
+					<button type="button" class="btn btn-primary addBtn modal__btn4">Add</button>
+
+					<div class="modal fade" id="exampleModalPortfolio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title">Add portfolio to profile</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<label for="message-text" class="col-form-label modal__text">Title*</label>
+											<label for="message-text" class="col-form-label modal__character">Character left: 1540</label>
+										</div>
+
+										<div class="form-group">
+											<input type="text" class="form-control modal__input" placeholder="Title of the project" id="recipient-name">
+										</div>	
+
+										<div class="form-group">
+											<label for="message-text" class="col-form-label modal__text">Description*</label>
+											<label for="message-text" class="col-form-label modal__character">Character left: 1540</label>
+										</div>
+
+										<div class="form-group">
+											<textarea class="form-control modal__textArea" id="message-text" placeholder="Describe project in details" rows="5"></textarea>
+										</div>		
+
+										<div class="form-group">
+											<label for="message-text" class="col-form-label modal__text">Link :</label>
+											<input type="text" class="form-control modal__input" placeholder="e.g. http://www.example.com" id="recipient-name">
+										</div>	
+										<div class="form-group">
+											<label for="message-text" class="col-form-label modal__attachText">Attach image or video to be...</label>
+
+											<input type="file"  id="file-2"  />
+											<label for="file-2" class="modal__attach"><i class="fa fa-paperclip" aria-hidden="true"></i> <span>Attach File</span></label>
+										</div>
+									</form>
+
+								</div>
+								<div class="modal-footer">
+									<h3 class="modal__info">Make sure you have copyright permissions to any work you add to this project.</h3>
+									<button type="button" class="btn btn-secondary modal__cancelBtn" data-dismiss="modal">Cancel</button>
+									<button type="button" class="btn btn-primary modal__addBtn">Add</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- /modal add button -->
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="libs/jquery/dist/jquery.min.js"><\/script>')</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="libs/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" type="text/javascript" charset="utf-8" async defer></script>
+      
+      
+      <script src="js/all.min.js"></script>
+
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+    </html>

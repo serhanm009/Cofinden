@@ -1,0 +1,64 @@
+.cooperation {
+	width: 35%;
+	margin-top: 3rem;
+	margin-left: 3rem;
+
+	&__list{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		&:first-child {
+			@include font($mpr, 2rem, #232323);
+
+		}
+	}
+
+	&__item {
+		display: inline-block;
+		&:not(:last-child) {
+			margin-right: .7rem;
+
+		}
+	}
+
+	&__title {
+		@include font($suisb, 1.3rem, #207e7e);
+		text-transform: uppercase;
+		margin-top: 1rem;
+	}
+
+	&__city {
+		@include font($suir, 1.6rem, #4c4b4b);
+	}
+
+	&__country {
+		@include font($suisl, 1.6rem, #099999);
+	}
+
+	&__btn {
+		@include font($suir, 1.8rem, #4e4e4e);
+		line-height: 1;
+		border: 1px solid #32bef1;
+		padding: 1rem 3.5rem;
+		display: inline-block;
+		margin-top: 1.8rem;
+		width: 15rem;
+		height: 46px;
+		text-align: center;
+		&:not(:last-child){
+			margin-right: 1rem;
+
+		}
+
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+			background-color: #32bef1;
+		}
+	}
+
+	&__dropdown-menu{
+		width: 150px;
+	}
+
+}

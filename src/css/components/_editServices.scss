@@ -1,0 +1,46 @@
+.editServices {
+	text-align: center;
+	&__box {
+		border: 3px dashed #c6c6c6;
+		text-align: center;
+		padding: 25px 40px 30px 40px;
+		width: 320px;
+		height: 245px;
+		margin: 0 auto;
+	}
+	&__input{
+		width: 0;
+		visibility: hidden;
+	}
+	&__label {
+		text-transform: uppercase;
+		@include font($suir, 13px, #3c3c3c);
+		border: 2px solid #32bef1;
+		border-radius: 22px;
+		padding: 11px 68px;
+		margin-top: 30px;
+		margin-bottom: 23px;
+		cursor:pointer;
+		background-color: #fff;
+	}
+
+	&__paragraph {
+		@include font($suir, 15px, #5c5b5b);
+
+	}
+
+	&__title {
+		@include font($suir, 27px, #525252);
+		margin-top: 30px;
+		
+	}
+
+	&__subtitle {
+		@include font($suir, 20px, #6a6666);
+		margin-bottom: 35px;
+	}
+
+	&__add {
+		text-align: right;
+	}
+}

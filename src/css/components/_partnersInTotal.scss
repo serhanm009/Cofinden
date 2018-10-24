@@ -1,0 +1,98 @@
+.partnersInTotal {
+	border-width: 1px;
+	border-color: rgb(233, 228, 228);
+	border-style: solid;
+	background-color: rgb(255, 255, 255);
+	padding-bottom: 30px;
+
+	&__content{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 24px 20px 24px 24px;
+		border-bottom: 1px solid #efefef;
+
+		&--last {
+		border-bottom: none;
+
+		}
+	}
+
+	&__parnersTotal {
+		margin-bottom: 16px;
+	}
+
+	&__contentLeft {
+		display: flex;
+		align-items: center;
+	}
+
+	&__contentRight {
+		position: relative;
+	}
+
+	&__outsourcing {
+		@include font($suir, 1.3rem, #0089d0);
+	}
+
+	&__cooperating {
+		@include font($suisl, 1.3rem, #2d2d2d);
+		margin-left: 17px;
+	}
+
+	&__icons {
+		text-align: right;
+		margin-bottom: 17px;
+	}
+
+	&__email {
+		margin-right: 8px;
+		color: #2d2d2d;
+
+		&:hover {
+			color: #2d2d2d;
+			
+		}
+	}
+
+	&__dots {
+		margin-right: 8px;
+		color: #2d2d2d;
+
+
+		// &:active +.partnersInTotal__reportMenu {
+		// 	display: block;
+		// }
+
+		&:hover {
+			color: #2d2d2d;
+
+		}
+	}
+
+	&__dotsIcon {
+		border-width: 1px;
+		border-color: rgb(155, 155, 155);
+		border-style: solid;
+		border-radius: 3px;
+		padding: 0 3px;
+
+	}
+	&__reportMenu {
+		position: absolute;
+		top: 0;
+		right: -102px;
+		// display: none;
+	}
+
+	&__reportLink {
+		@include font($suir, 1.3rem, #0089d0);
+		border-bottom: 1px solid #0089d0;
+
+		&:hover {
+			text-decoration: none;
+			color: #0089d0;
+		}
+
+	}
+}

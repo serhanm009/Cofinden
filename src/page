@@ -1,0 +1,238 @@
+//= template/head.html
+//= template/header.html
+
+<div class="searchForTender">
+	<div class="myContainer">
+		<!-- leftSide -->
+		<div class="noTender__top">
+			<h2>Lorem ipsum dolor</h2>
+
+			<ul class="noTender__topList">
+				<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
+				<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
+				<li class="noTender__topListItem"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
+				<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
+			</ul>
+		</div>
+
+		<div class="page">
+			<div class="leftSide">
+				<div class="leftSide__top"></div>
+				<div class="leftSide__content">
+					<div class="leftSide__logo">
+						<img src="img/fedex.png" class="img-fluid leftSide__img" alt="">
+					</div>
+
+					<h2 class="leftSide__title">Fedex Corporation Limited</h2>
+					<h2 class="leftSide__subtitle">Logistics</h2>
+
+					<ul class="leftSide__firstList">
+						<li class="leftSide__firstListItem">Rating <span class="leftSide__firstListValue">7.9</span></li>
+						<div class="leftSide__firstListLine"></div>
+						<li class="leftSide__firstListItem">Status <span class="leftSide__firstListValue">Pre</span></li>
+						<div class="leftSide__firstListLine"></div>
+						<li class="leftSide__firstListItem">Profile <span class="leftSide__firstListValue">100%</span></li>
+					</ul>
+
+					<ul class="leftSide__secondList">
+						<a href="#" title="" class="leftSide__secondLink">
+							<li class="leftSide__secondListItem">
+								<div class="leftSide__secondListItemLeft">
+									<span><img src="img/mainBoardIcon.png" alt=""></span>
+									<span class="leftSide__secondListName">&nbsp;Main Board</span>
+								</div>
+								<span class="leftSide__secondListCount">3</span>
+							</li>
+						</a>
+						<a href="#" title="" class="leftSide__secondLink">
+							<li class="leftSide__secondListItem">
+								<div class="leftSide__secondListItemLeft">
+									<span><img src="img/messageIcon.png" alt=""></span>
+									<span class="leftSide__secondListName">Messages</span>
+								</div>
+								<span class="leftSide__secondListCount">23</span>
+							</li>
+						</a>
+						<a href="#" title="" class="leftSide__secondLink">
+							<li class="leftSide__secondListItem">
+								<div class="leftSide__secondListItemLeft">
+									<span><img src="img/handshaking.png" alt=""></span>
+									<span class="leftSide__secondListName">Partners</span>
+								</div>
+								<span class="leftSide__secondListCount">1</span>
+							</li>
+						</a>
+						<a href="#" title="" class="leftSide__secondLink">
+							<li class="leftSide__secondListItem">
+								<div class="leftSide__secondListItemLeft">
+									<span><img src="img/newsIcon.png" alt=""></span>
+									<span class="leftSide__secondListName">News</span>
+								</div>
+							</li>
+						</a>
+					</ul>
+				</div>
+
+				<div class="leftSide__bottom">
+					<p class="leftSide__bottomSentence">Get access to all tools and possibilities</p>
+					<a href="#" title="" class="leftSide__bottomLink"> <img src="img/PremiumIcon.png" alt="">Try Premium Membership</a>
+				</div>
+			</div>
+			<!-- /leftSide -->
+			<div class="rightSide">
+				<div class="postATenderBox">
+					<div class="searchBox">
+						<input type="text" name="" class="searchBox__input" placeholder="Add keywords to find tenders...">
+						<button class="searchBox__btn">Search</button>
+					</div>
+
+					<a href="#" class="postATender" title=""><img src="img/notender__icon1.png" class="noTender__icon" alt=""> Post a tender</a>
+				</div>
+
+				<div class="companyTender">
+					<div class="companyTender__left">
+						
+
+						<div class="companyTender__box">
+							<div class="companyTender">
+								<div class="companyTender__logo">
+									<img src="img/adidas__logo.png" class="companyTender__img"  alt="">
+									<h2 class="companyTender__logoTitle">Adidas Corporation Limited</h2>
+								</div>
+
+								<div class="companyTender__main">
+									<h2 class="companyTender__mainTitle">Developing  corporate Website</h2>
+									<h2 class="companyTender__mainBudget"> Budget : 5000$</h2>
+									<p class="companyTender__mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+								</div>
+
+								<div class="companyTender__menu">
+
+
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle companyTender__dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<div class="companyTender__dots">
+												<div class="companyTender__dot"></div>
+												<div class="companyTender__dot"></div>
+												<div class="companyTender__dot"></div>
+											</div>
+										</button>
+										<div class="dropdown-menu companyTender__dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">Edit Tender</a>
+											<a class="dropdown-item" href="#">Delete Tender</a>
+											<a class="dropdown-item" href="#">Cancel Tender</a>
+											<a class="dropdown-item" href="#">Reactivate Tender</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="companyTender__bottom">
+								<div class="companyTender__time">
+									<h2 class="companyTender__leftDays"> <img src="img/time__icon.png" class="companyTender__timeIcon" alt="">2 days left</h2> 
+									
+
+									<div class="companyTender__item">
+										<img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span>
+									</div> 
+								</div>
+								<a href="#" title="" class="companyTender__link">Show</a>	
+							</div>
+
+						</div>
+
+						<div class="companyTender__box">
+							<div class="companyTender">
+								<div class="companyTender__logo">
+									<img src="img/adidas__logo.png" class="companyTender__img"  alt="">
+									<h2 class="companyTender__logoTitle">Adidas Corporation Limited</h2>
+								</div>
+
+								<div class="companyTender__main">
+									<h2 class="companyTender__mainTitle">Developing  corporate Website</h2>
+									<h2 class="companyTender__mainBudget"> Budget : 5000$</h2>
+									<p class="companyTender__mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+								</div>
+
+								<div class="companyTender__menu">
+
+
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle companyTender__dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<div class="companyTender__dots">
+												<div class="companyTender__dot"></div>
+												<div class="companyTender__dot"></div>
+												<div class="companyTender__dot"></div>
+											</div>
+										</button>
+										<div class="dropdown-menu companyTender__dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">Edit Tender</a>
+											<a class="dropdown-item" href="#">Delete Tender</a>
+											<a class="dropdown-item" href="#">Cancel Tender</a>
+											<a class="dropdown-item" href="#">Reactivate Tender</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="companyTender__bottom">
+								<div class="companyTender__time">
+									<span class="pending">Pending</span> 
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div>
+									<a href="#" title="" class="companyTender__link">Show</a>	
+									<a href="#" title="" class="companyTender__link companyTender__link--1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Publish</a>	
+								</div>
+								
+							</div>
+
+						</div>
+
+
+						<nav aria-label="Page navigation example">
+							<ul class="pagination companyTender__pagination">
+								<li class="page-item editIcons__paginationItem">
+									<a class="page-link editIcons__paginationLink" href="#" aria-label="Previous">
+										<span aria-hidden="true">&laquo;</span>
+										<span class="sr-only">Previous</span>
+									</a>
+								</li>
+								<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">1</a></li>
+								<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">2</a></li>
+								<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">3</a></li>
+								<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">4</a></li>
+								<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">5</a></li>
+								<li class="page-item editIcons__paginationItem">
+									<a class="page-link editIcons__paginationLink" href="#" aria-label="Next">
+										<span aria-hidden="true">&raquo;</span>
+										<span class="sr-only">Next</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+
+
+
+
+
+					</div>
+					<div class="companyTender__right">
+						<div class="__videoBox">
+							<iframe width="190" height="130" src="https://www.youtube.com/embed/DMKF0nDD5AE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<h2 class="companyTender__video">2104 ADNDRC  Conference 
+							invitingall companies.</h2>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+//= template/footer.html

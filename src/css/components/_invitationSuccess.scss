@@ -1,0 +1,33 @@
+.invitationSuccess {
+	&__body {
+		text-align: center;
+		padding-right: 10px;
+	}
+	&__header {
+		background-color: #32bef1;
+		padding: 20px 20px 30px 0;
+		text-align: center;
+	}
+	&__title{
+		@include font($suib, 3rem, #5c5b5b);
+		padding-top: 45px;
+		margin-bottom: 13px;
+		
+	}	
+
+	&__text{
+		@include font($suir, 1.6rem, #565656);
+		padding: 0 93px;
+		margin-bottom: 32px;
+		
+	}	
+
+	&__close{
+		@include font($suisb, 1.7rem, #010101);
+
+		&:hover {
+			text-decoration: none;
+		}
+
+	}
+}

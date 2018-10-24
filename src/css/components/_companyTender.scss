@@ -1,0 +1,161 @@
+.companyTender {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 2px 20px 2px;
+	margin-top: 14px;
+
+	&__left {
+		width: 80%;
+	}	
+
+	&__right {
+		width: 20%;
+	}
+
+
+	&__box {
+		width: 97%;
+		border: 1px solid #b5bebe;
+		margin-bottom: 20px;
+	}
+
+
+	&__dots {
+		display: flex;
+	}
+
+	&__dot {
+		width: 5px;
+		height: 5px;
+		background-color: #064a64;
+		border-radius: 5px;
+		margin-right: 2px;
+	}
+
+	&__dropdown {
+		// margin-left: 157px;
+		background-color: #fff;
+		border:none;
+
+		&:hover {
+			background-color: transparent;
+		}
+
+		&:focus {
+			border:none !important;
+		}
+	}
+
+	&__logo {
+		text-align: center;
+		width: 64%;
+	}
+
+	&__logoTitle{
+		@include font($suir, 1.4rem, #2e2e2e);
+		margin-top: 15px;
+
+	}
+
+	&__mainTitle {
+		@include font($suisb, 1.5rem, #1c1b1b);
+		margin-bottom: 20px;
+
+
+	}
+
+	&__mainBudget {
+		@include font($suisb, 1.4rem, #1c1b1b);
+	}
+
+	&__mainText {
+		@include font($suisl, 1.5rem, #706e6e);
+	}
+
+	&__dropdown-menu {
+		top: 3px !important;
+		left: -145px !important;
+	}
+
+	&__bottom {
+		border-top: 1px solid #d8dfdf;
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		padding: 10px 20px;
+
+	}
+
+	&__time {
+		display: flex;
+		align-items:center;
+	}
+
+	&__leftDays {
+		@include font($suir, 1.5rem, #099999);
+		margin-bottom: 0 !important;
+		margin-left: 4px;
+		margin-right: 50px;
+	}
+
+	&__img {
+		width: 80px;
+		height: 80px;
+	}
+
+	&__video {
+		@include font($suil, 1.6rem, #3f3f3f);
+		text-align:left;
+		margin-top: 10px;
+		
+	}
+
+	&__videoBox {
+		text-align: right;
+		width: 20%;
+	}
+
+	&__pagination {
+		margin-left: 240px;
+	}
+
+	&__timeIcon {
+		margin-right: 5px;
+	}
+
+	&__item {
+		@include font($suir, 1.5rem, #323030);
+
+	}
+
+	&__link {
+		@include font($mpr, 1.5rem, #9987d2);
+
+		&--1{
+			border: 1px solid #b3bd4d;
+			padding: 7px 13px;
+			border-radius: 40px;
+			margin-left: 6px;
+		} 
+
+		
+	}
+
+
+}
+
+.fa-pencil-square-o {
+	margin-right: 6px;
+}
+.progress {
+	width: 100px;
+	background-color: #e5edf0;
+	margin-left: 8px;
+}
+.progress-bar {
+	background-color: #a7aeb1;
+}
+.pending {
+		@include font($mpr, 1.5rem, #099999);
+	
+}

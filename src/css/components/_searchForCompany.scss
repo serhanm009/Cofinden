@@ -1,0 +1,13 @@
+.searchForCompany {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 34px;
+	&__left{
+		width: 80%;
+	}
+
+	&__right{
+		border: 1px solid red;
+		width: 18%;
+	}
+}

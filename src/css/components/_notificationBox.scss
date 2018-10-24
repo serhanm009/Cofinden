@@ -1,0 +1,111 @@
+.notificationBox {
+	border: 1px solid #d6d5de;
+	margin-bottom: 20px;
+
+	&__top {
+		border-bottom: 1px solid #d6d5de;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 18px 20px;
+	}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 27px 21px 27px 21px;
+		position: relative;
+	}
+
+	&__bottomLeft{
+		display: flex;
+		align-items: center;
+	}
+
+	&__bottomRight {
+		position: relative;
+	}
+
+	&__title {
+		@include font($suisb, 1.8rem, #232323);
+		margin: 0;
+
+	}
+
+	&__more {
+		@include font($suisl, 1.1rem, #5c5c5c);
+		text-align: center;
+
+	}
+
+	&__btn {
+		border: none;
+		background-color: transparent;
+		@include font($suisb, 1.6rem, #3a3a3a);
+		cursor: pointer;
+		padding: 0;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__img {
+		border: 1px solid #d4d4d4;
+		width: 52px;
+		height: 52px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 8px;
+	}
+
+	&__website {
+		@include font($suir, 1.5rem, #131313);
+		margin: 0;
+
+	}
+
+	&__company {
+		@include font($suisl, 1.5rem, #0c0c0c);
+		margin: 0;
+	}
+
+	&__link {
+		@include font($suir, 1.5rem, #0089d0);
+	}
+
+	&__bell {
+		border: 1px solid #999999;
+		color: #999999;
+		padding: 5px 7px 6px 6px;
+		margin-right: 32px;
+
+
+		// &:hover .notificationList {
+		// 	display: block;
+
+		// }
+
+	}
+
+	&__showAllLink{
+		@include font($suir, 1.3rem, #0089d0);
+		border: 1px solid #999999;
+		border-radius: 15px;
+		padding: 5px 21px 7px 21px;
+		
+	}
+
+	&__notificationCount {
+		@include font($suisb, 1rem, #fff);
+		background-color: #b3bd4d;
+		border-radius: 15px;
+		padding: 2px 7px 3px 7px;
+		top: -20px;
+		position: absolute;
+		left: 30px;
+
+
+	}
+}

@@ -1,0 +1,41 @@
+.applyBox {
+	border: 1px solid #b5bebe;
+	padding: 20px 15px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	&__showLink {
+		@include font($suisl, 1.5rem, #191919);
+
+	}
+
+	&__termsLink{
+		@include font($suisl, 1.3rem, #565656);
+
+	}
+
+	&__cancelLink{
+		@include font($suisb, 1.6rem, #525252);
+		margin-right: 35px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&__applyLink{
+		@include font($suisb, 1.6rem, #fff);
+		background-color: #dbbe53;
+		padding: 10px 30px;
+		border: 1px solid;
+
+		&:hover {
+			text-decoration: none;
+			background-color: #fff;
+			color: #dbbe53;
+			border: 1px solid #dbbe53;
+		}
+	}
+
+}

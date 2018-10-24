@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cofinden</title>
+    <meta name="description" content="">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- <meta name="viewport" content="initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" href="libs/normalize.css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <link rel="stylesheet" href="css/main/main.min.css">
+</head>
+<body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+<!-- modal add button -->
+<button type="button" class="btn btn-primary addBtn modal__btn5">Add</button>
+
+<div class="modal fade" id="exampleModalProducts" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Add Product</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="message-text" class="col-form-label modal__text">Title*</label>
+						<label for="message-text" class="col-form-label modal__character">Character left: 1540</label>
+					</div>
+
+					<div class="form-group">
+						<input type="text" class="form-control modal__input" placeholder="Title of project" id="recipient-name">
+					</div>
+
+					<div class="form-group">
+						<label for="message-text" class="col-form-label modal__text">Link*</label>
+					</div>
+
+					<div class="form-group">
+						<input type="text" class="form-control modal__input" placeholder="e.g. http://www.example.com" id="recipient-name">
+					</div>
+					<div class="modal__attach1">
+						<div class="form-group modal__formGroup">
+							<input type="file"  id="file-1"  />
+							<label for="file-1" class="modal__attachLabel"><i class="fa fa-picture-o" aria-hidden="true"></i><span>Attach Image</span></label>
+						</div>
+
+						<a href="#" title="" class="modal__img">Brendon.png</a>
+
+						<div class="modal__imgCancel">
+							<a href="#" title="" class="modal__x">X</a>
+						</div>
+						<div class="modal__cancel">Cancel</div>
+					</div>
+
+				</form>
+
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary modal__cancelBtn" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary modal__addBtn imgAddBtn">Add</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- /modal add button -->
+
+
+<!-- imgAddBtn  -->
+
+<div class="modal fade" id="exampleModalSuccess" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog success modal-dialog-centered" role="document">
+		<div class="modal-content success__content">
+			<div class="modal-body success__body">
+				<img src="img/success__icon.png" class="success__icon" alt="">
+				<h3 class="success__title">Success!</h3>
+				<h3 class="success__text">Image Successfully Added</h3>
+			</div>
+			<div class="success__footer">
+				<a href="#" title="" class="success__link">GO TO BACK TO MAIN BOARD <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- /imgAddBtn  -->
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="libs/jquery/dist/jquery.min.js"><\/script>')</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="libs/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" type="text/javascript" charset="utf-8" async defer></script>
+      
+      
+      <script src="js/all.min.js"></script>
+
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+    </html>

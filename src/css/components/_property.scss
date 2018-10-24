@@ -1,0 +1,18 @@
+.property {
+	display: flex;
+	align-items:center;
+
+	&__title {
+		@include font($suib, 1.5rem, #1c1b1b);
+
+	}
+
+	&__subtitle {
+		@include font($suir, 1.5rem, #099999);
+	}
+
+	&__img {
+		margin-right: 12px;
+	}
+
+}

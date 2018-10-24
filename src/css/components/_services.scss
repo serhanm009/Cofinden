@@ -1,0 +1,53 @@
+.services{
+	display: flex;
+
+	&:not(:first-child){
+		margin-top: 23px;
+	}	
+
+	&:first-child{
+		margin-top: 47px;
+	}
+	&__box{
+		display: flex;
+		border: 1px solid #b7b7b7;
+		width: 294px;
+
+		&:not(:last-child){
+			margin-right: 30px;	
+		}		
+		// edit ucun 
+		position: relative;
+	}
+
+
+	&__number{
+		@include font($suir, 1.9rem, #232323);
+		border-right: 1px solid #b7b7b7;
+		width: 43px;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		margin: 5px 0;
+		text-align: center;
+		justify-content:center;
+
+	}
+
+	&__nameBox{
+		@include font($suisl, 1.6rem, #2b2b2b);
+		display: flex;
+		align-items:center;
+		padding: 0 20px;
+
+
+	}
+
+	&__name {
+		width: 167px;
+
+    // editIcons ucun
+		display: flex;
+		align-items: center;
+	}
+}

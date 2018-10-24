@@ -1,0 +1,108 @@
+.recommendations {
+
+	div:nth-child(4) {
+		border-bottom: 1px solid #e4e4e4;
+		border-top: 1px solid #e4e4e4;
+		padding-top: 40px;
+		
+	}
+
+	&__heading {
+		@include font($mpr, 1.9rem, #404040);
+		margin-bottom: 26px;
+	}
+
+	&__dots{
+		display: flex;
+	}
+
+	&__top {
+		display: flex;
+		align-items:center;
+		justify-content: space-between;
+	}
+
+	&__dot{
+		width: 5px;
+		height: 5px;
+		border-radius:5px;
+		background-color: #064a64;
+
+		&:not(:last-child){
+			margin-right: 3px;
+		}
+	}
+
+	&__title{
+		@include font($suisb, 1.5rem, #303030);
+
+
+	}
+
+	&__number{
+		@include font($suisl, 1.5rem, #000000);
+
+	}
+
+	&__word{
+		@include font($suir, 1.5rem, #000000);
+
+	}
+
+	&__content {
+		display: flex;
+		margin-top: 45px;
+		padding-bottom: 30px;
+	}
+
+	&__left {
+		width: 30%;
+	}	
+
+	&__right {
+		width: 70%;
+	}
+	&__companyBox {
+		display: flex;
+	}
+
+	&__company {
+		@include font($mpr, 1.3rem, #000000);
+
+	}	
+	&__city {
+		display: inline-block;
+		@include font($mpr, 1.3rem, #000000);
+
+	}
+
+	&__subtitle{
+		@include font($suisb, 1.3rem, #000000);
+		text-transform: uppercase;
+	}
+
+	&__text{
+		@include font($suisl, 1.5rem, #000000);
+
+	}
+
+	&__subheading{
+		@include font($suir, 1.3rem, #7a7a7a);
+		margin-top: 10px;
+
+	}
+
+	&__link {
+		@include font($suir, 1.5rem, #32bef1);
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&__contentBox {
+		display: flex;
+		flex-direction: column;
+		margin: 0 10px;
+	}
+}

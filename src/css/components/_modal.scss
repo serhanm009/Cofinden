@@ -1,0 +1,167 @@
+.modal {
+	z-index: 1000;
+
+	&__character {
+		text-align: right;
+		margin: 0 auto;
+		right: 11px;
+		position: absolute; 
+		@include font($suir, 1.4rem, #5a5555);
+	}
+
+	&__cancelBtn {
+		background-color: transparent;
+		border: none;
+		@include font($suir, 1.7rem, #000000);
+
+	}
+
+	&__addBtn {
+		background-color: #dbbe53;
+		border: none;
+		@include font($suir, 1.7rem, #ffffff);
+		padding: 5px 33px;
+
+	}
+
+	&__textArea {
+		@include font($suir, 1.5rem, #7b7b7b);
+
+	}
+
+	&__text {
+		@include font($suisb, 1.8rem, #3f3f3f);
+
+	}	
+
+	&__attachText {
+		@include font($suisl, 1.4rem, #656565);
+		margin-bottom: 20px;
+
+	}
+
+	&__input {
+		@include font($suir, 1.5rem, #7b7b7b);
+		height: 44px;
+
+	}
+
+	&__select {
+		width: 248px;
+		height: 43px;
+		display: block;
+		@include font($suir, 1.5rem, #7b7b7b);
+	}
+
+	&__info {
+		@include font($suisl, 1.2rem, #181818);
+		margin-right: auto !important;
+		margin-left: 20px;
+	}
+
+	&__attach {
+		border: 1px dashed #dbbe53;
+		padding: 10px 20px;
+		@include font($suir, 1.3rem, #545454);
+		display: block;
+		width: fit-content;
+	}
+
+	&__attachLabel {
+		border: 1px dashed #dbbe53;
+		padding: 10px 20px;
+		width: fit-content;
+
+		@include font($suir, 1.3rem, #545454);
+	}
+
+	&__formGroup {
+		width: 145px;
+	}
+
+	&__attach1 {
+		display: flex;
+		align-items:center;
+		position: relative;
+	}
+
+	&__img {
+		@include font($suisl, 1.5rem, #0a2082);
+		margin-bottom: 1.5rem;
+		margin-right: 15px;
+		
+	}	
+
+	&__imgCancel {
+		margin-bottom: 1.5rem;
+		margin-right: 5px;
+
+	}
+
+	&__x {
+		margin-bottom: 1.5rem;
+		@include font($suib, 1.2rem, #63686a);
+	}
+
+	&__cancel {
+		position: absolute;
+		background-color: #ffffff;
+		top: -9px;
+		left: 255px;
+		@include font($suil, 1.1rem, #5e6061);
+		border: 1px solid #32bef1;
+		padding: 4px 10px;
+		border-radius:  15px;
+		display: none;
+	}
+
+
+}
+
+
+#file-1 {
+	visibility: hidden;
+	width: 0;
+}
+
+#file-2 {
+	visibility: hidden;
+	width: 0;
+}
+
+.fa-paperclip {
+	color: #dbbe53;
+}
+
+.fa-picture-o {
+	color: #dbbe53;
+	margin-right: 4px;
+}
+.modal-header {
+	background-color: #32bef1;
+	border-bottom: none;
+	padding-left: 30px;
+
+}
+
+.modal-content {
+	padding-bottom: 25px;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
+.modal-body {
+	padding-left: 30px;
+}
+
+.modal-dialog {
+	min-width: 835px;
+}
+
+
+
+.modal__imgCancel:hover +.modal__cancel {
+	display: block;
+}

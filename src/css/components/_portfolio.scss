@@ -1,0 +1,82 @@
+.portfolio{
+
+	&__heading {
+		@include font($suir, 1.9rem, #232323);
+		margin-left: 3px;
+		margin-bottom: 33px;
+	}
+
+	&__name {
+		@include font($suir, 1.4rem, #ffffff);
+		border: 1px solid #fff;
+		padding: 15px;
+		width: 85%;
+		margin: 0 auto;
+
+	}
+
+	&__item {
+		width: 219px;
+		margin-bottom: 7px;
+	}
+
+	&__overlayBox{
+		position: relative;
+	}
+	&__overlayBox:hover &__overlay{
+		opacity: 0.8;
+		
+	}
+
+	&__overlay {
+		opacity: 0;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		// width: 219px;
+		// height: 100%;
+		background-color: rgba(0, 0, 0, 0.651);
+		text-align: center;
+
+	}
+
+	&__carousel {
+		margin-top: 15px;
+	}
+
+	&__title{
+		@include font($suisb, 1.6rem, #303030);
+	}
+
+
+	&__number{
+		@include font($suisl, 1.6rem, #000000);
+		
+	}	
+
+	&__text{
+		@include font($suisl, 1.6rem, #606060);
+		margin-top: 26px;
+		margin-bottom: 30px;
+	}
+
+	//edit uchun
+
+	&__editText {
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&__editName {
+		margin-top: 50px;
+		margin-bottom: 15px;
+	}
+	
+}

@@ -1,0 +1,36 @@
+.homeTop {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	align-items:center;
+
+	&__logo {
+		width: 166px;
+		height: 50px;
+	}
+
+	&__link {
+		border: 1px solid #c6c6c6;
+		padding: 15px 24px;
+		@include font($suisl, 1.8rem, #282b2c);
+		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+			border: 1px solid #282b2c;
+		}
+
+		&--1 {
+			border-color:transparent;
+
+		}		
+
+		&--2 {
+			padding: 15px 75px;
+		}
+
+	}
+
+
+
+}

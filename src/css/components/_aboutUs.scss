@@ -1,0 +1,53 @@
+.aboutUs {
+	display: flex;
+	&__left {
+		width: 500px;
+		margin-right: 78px;
+	}
+
+	&__heading {
+		@include font($mpr, 1.9rem, #404040);
+		margin-top: 32px ;
+		margin-left: 3px;
+		margin-bottom: 33px;
+	}
+
+	&__text {
+		@include font($suisl, 1.6rem, #176767);
+	}	
+
+	&__link {
+		@include font($suisl, 1.6rem, #32bef1);
+
+	}
+
+	&__rightTitle{
+		@include font($mpr, 1.6rem, #3f3f3f);
+		padding: 35px 0;
+
+	}
+
+	&__video {
+		border-style: solid;
+	}
+
+	&__rightContent {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__rightDelete {
+		padding: 33px 0;
+		@include font($suisb, 1.6rem, #32bef1);
+
+		&:hover {
+			color: #32bef1;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+
+

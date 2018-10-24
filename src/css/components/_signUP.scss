@@ -1,0 +1,139 @@
+.signUp {
+	text-align: center;
+	height: 777px;
+	padding: 75px 0;
+
+	&__box {
+		width: 440px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		@include font($suisb, 2.2rem, #b3bd4d);
+		margin-bottom: 35px;
+
+	}	
+
+	&__subtitle {
+		@include font($suir, 1.8rem, #5b5b5b);
+		margin-bottom: 45px;
+
+	}
+
+	&__input {
+		width: 440px;
+		height: 45px;
+		display: block;
+		margin-bottom: 20px;
+		@include font($suisl, 1.6rem, #099999);
+		padding: 0px 10px;
+
+		&--small {
+			width: 49%;
+		}
+
+	}
+
+	&__select {
+		@include font($suisl, 1.6rem, #099999);
+		width: 49%;
+		height: 45px;
+		margin-bottom: 20px;
+		padding: 0 10px;
+	}
+
+	&__signIn {
+		display: block;
+		@include font($suisb, 1.9rem, #fff);
+		background-color: #3abff0;
+		padding: 12px 0;
+		margin-bottom: 35px;
+		border: 1px solid #3abff0;
+		border-color: transparent;
+
+		// width: 35.7%;
+
+		&:hover {
+			text-decoration: none;
+			color: #3abff0;
+
+			border: 1px solid #3abff0;
+			background-color: #fff;
+		}
+
+	}
+
+	&__checkbox {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 35px;
+
+		// width: 35.7%;
+	}
+
+	&__outsourcingDetails {
+		@include font($suisl, 1.5rem, #3abff0);
+
+		&:hover {
+			text-decoration: none;
+			color:#3abff0;
+		}
+
+	}	
+
+	&__outsourceBox {
+		display: flex;
+		align-items: center;
+	}
+
+	&__outsource {
+		@include font($suisl, 1.5rem, #4b4b4b);
+		margin-left: 5px;
+
+	}
+
+	&__signUp {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__compalleMember {
+		@include font($suisl, 1.6rem, #000000);
+		margin-bottom: 0;
+		margin-right: 10px;
+
+	}
+
+	&__signUpLink{
+		@include font($suisl, 1.6rem, #009999);
+
+		&:hover {
+			text-decoration: none;
+			color: #009999;
+
+		}
+
+	}
+
+	&__companyName {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__details {
+		@include font($suisl, 1.3rem, #716d6d);
+		margin-top: 20px;
+
+	}
+
+	&__detailsLink{
+		@include font($suisl, 1.3rem, #716d6d);
+
+		&:hover {
+			text-decoration: none;
+			color: #716d6d;
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+.searchBox {
+	display: block;
+
+	&__input {
+		height: 45px;
+		width: 628px;
+		padding-left: 20px;
+		@include font($suil, 1.3rem, #838080);
+	}
+
+	&__btn {
+		background-color: #b3bd4d;
+		@include font($suisb, 1.6rem, #fff);
+		border: none;
+		padding: 9px 30px 12px 30px;
+	}
+}

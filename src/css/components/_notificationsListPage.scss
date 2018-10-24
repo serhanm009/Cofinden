@@ -1,0 +1,87 @@
+.notificationsListPage {
+	border-width: 0.88px;
+	border-color: rgb(220, 219, 219);
+	border-style: solid;
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	padding: 20px 25px;
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid rgb(220, 219, 219);
+
+		}
+
+		&:not(:first-child) {
+			padding-top: 15px;
+			
+		}
+
+		padding-bottom: 15px;
+	}
+	
+
+	&__itemLeft {
+		display: flex;
+		align-items: center;
+	}
+
+	&__itemRight {
+		@include font($suir, 1.2rem, #009090);
+	}
+
+	&__logo {
+		border-width: 0.88px;
+		border-color: rgb(209, 209, 209);
+		border-style: solid;
+		border-radius: 3px;
+		background-color: rgb(255, 255, 255);
+		margin-right: 15px;
+
+		width: 49px;
+		height: 48px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	&__companyName {
+		@include font($suisb, 1.5rem, #595959);
+
+	}
+
+	&__posted {
+		@include font($suisl, 1.5rem, #595959);
+
+	}
+
+	&__link {
+		@include font($suir, 1.5rem, #b3bd4d);
+		border-bottom: 2px solid #b3bd4d ;
+
+		&:hover {
+			text-decoration: none;
+			color: #b3bd4d;
+
+		}
+
+		&--1 {
+			@include font($suir, 1.5rem, #4a45ae);
+			border-bottom: 2px solid #4a45ae ;
+
+			&:hover {
+				text-decoration: none;
+				color: #4a45ae;
+
+			}
+		}
+
+	}
+
+}

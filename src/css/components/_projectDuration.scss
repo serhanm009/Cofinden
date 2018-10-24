@@ -1,0 +1,17 @@
+.projectDuration {
+	border: 1px solid #b5bebe;
+	margin-top: 25px;
+	padding: 24px 0 24px 35px;
+
+	&__title {
+		@include font($suisb, 1.8rem, #414141);
+	}
+
+	&__select {
+		@include font($suir, 1.6rem, #414141);
+		height: 43px;
+		width: 250px;
+		margin-top: 30px;
+		padding-left: 20px;
+	}
+}

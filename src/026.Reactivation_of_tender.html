@@ -1,0 +1,47 @@
+//= template/head.html
+<div class="acceptReject__right">
+
+	<a href="#" title="" class="oneBtn oneBtn--1 reactivateTender">Reactivate Tender</a>
+
+	<div class="modal fade" id="reactivateTender" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered reactivateTenderModal" role="document">
+			<div class="modal-content reactivateTenderModal-content">
+				<div class="modal-header reactivateTenderHeader">
+					<h5 class="modal-title reactivateTenderTitle" id="exampleModalLabel">Reactivate Tender</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">X</span>
+					</button>
+				</div>
+				<div class="modal-body reactivateTenderModalBody">
+					<p class="reactivateTenderMessage">Please change Tender Deadline</p>
+					<span class="reactivateTenderDeadline">Deadline</span>
+					<!-- Burda kalendar olacaq -->
+				</div>
+				<div class="modal-footer reactivateTenderModalFooter">
+					<button type="button" class="btn btn-secondary reactivateCancel" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary reactivateConfirm">Confirm</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="reactivateConfirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog success modal-dialog-centered" role="document">
+			<div class="modal-content success__content">
+				<div class="modal-body success__body">
+					<img src="img/success__icon.png" class="success__icon" alt="">
+					<h3 class="success__title">Success!</h3>
+					<h3 class="success__text">You have succesfully reactivated Tender</h3>
+				</div>
+				<div class="success__footer">
+					<a href="#" title="" class="success__link">GO TO BACK TO TENDERS</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+//= template/footer.html
+
+
+

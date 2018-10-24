@@ -1,0 +1,58 @@
+.headerNav {
+	height: 100%;
+	padding: 10px 0;
+
+	&__logo {
+		width: 165px;
+		height: 45px;
+	}
+
+	&__item {
+		margin-left: 20px;
+		width: 94px;
+
+	}
+
+	&__link{
+		font-family: $suir ;
+		font-size: 18px;
+		color: #313131 !important;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+
+		&--first{
+			font-size: 15px;
+		}
+
+		&--last {
+			@include font($cgr, 15px, #676767);
+		}
+	}
+
+	&__navbar-nav{
+		align-items: center;
+	}
+
+	&__boxes{
+		display: flex;
+	}
+	
+	&__box {
+		width: 10px;
+		height: 10px;
+		background-color: #9b9b9b;
+		margin-right: 4px;
+		margin-bottom: 4px;
+
+		&--last{
+			background-color: transparent;
+			border: 1px solid #32bef1;
+		}
+	}
+
+	&__services{
+		margin: 0 auto;
+	}
+
+}

@@ -1,0 +1,141 @@
+.foundCompany {
+	display: flex;
+	padding: 29px 15px;
+	border: 1px solid #bfbfbf;
+	margin-bottom: 20px;
+
+	&__left {
+		width: 20%;
+	}
+
+	&__right {
+		width: 80%;
+	}
+
+	&__logo {
+		border: 1px solid #90d1d1; 
+		padding: 39px 21px 40px 24px;
+	}
+
+	&__type {
+		@include font($suib, 1.3rem, #535353);
+		text-align: center;
+		padding: 15px 30px 0 7px;
+	}
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__topLeft{
+		display: flex;
+		align-items: center;
+	}
+
+	&__topRight {
+		position: relative;
+	}
+
+	&__name {
+		@include font($cgb, 2rem, #1d1d1d);
+		margin: 0;
+
+	}
+
+	&__since {
+		@include font($mpr, 1.5rem, #099999);
+		margin: 0;
+	}
+
+	&__rating {
+		@include font($suir, 0.9rem, #4d4d4d);
+	}
+	&__ratingNum {
+		@include font($suib, 1.5rem, #000);
+	}
+
+	&__ratingBox {
+		border: 1px solid #3abff0;
+		display: flex;
+		flex-direction: column;
+		border-radius: 2px;
+		width: 45px;
+		height: 45px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 30px;
+		padding-top: 2px;
+	}
+
+	&__connect {
+		box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.34);
+		border-radius: 3px;
+		@include font($suir, 1.2rem, #443e3e);
+		padding: 8px 12px;
+		display: none;
+		position: absolute;
+		top: -42px;
+		left: 18px;
+		background-color: #fff;
+	}
+
+	&__member {
+		box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.34);
+		border-radius: 3px;
+		@include font($suir, 1.2rem, #443e3e);
+		padding: 8px 12px;
+		display: none;
+		position: absolute;
+		top: -42px;
+		left: -54px;
+		background-color: #fff;
+		width: 141px;
+	}
+
+	&__imgConnect {
+		&:hover +.foundCompany__connect {
+			display: block;
+		}
+	}
+
+	&__imgMember {
+		&:hover +.foundCompany__member {
+			display: block;
+		}
+	}
+
+	&__links {
+		margin-right: 10px;
+	}
+
+	&__text {
+		@include font($suisl, 1.5rem, #343333);
+		padding: 10px 76px 0 0;
+		text-align: justify;
+	}
+
+	&__loc {
+		@include font($suisl, 1.5rem, #099999);
+	}
+
+	&__locIcon {
+		color: #000;
+	}
+
+	&__recommend {
+		@include font($suisl, 1.5rem, #000);
+	}
+
+	&__company {
+		@include font($suisl, 1.5rem, #099999);
+	}
+
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+
+}

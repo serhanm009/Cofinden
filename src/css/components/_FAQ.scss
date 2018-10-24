@@ -1,0 +1,18 @@
+.FAQ {
+	background-color: #fff;
+	height: 935px;
+	padding: 104px 57px 0 57px;
+
+	&__text {
+		@include font($suisl, 16px, #585858);
+		text-align: justify;
+
+	}
+
+	&__page {
+		background-color: #f7fafb;
+		height: 2178px;
+		padding-top: 47px;
+	}
+}
+

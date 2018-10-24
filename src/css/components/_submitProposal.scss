@@ -1,0 +1,23 @@
+.submitProposal {
+	display: flex;
+	justify-content: space-between;
+
+	&__title {
+		@include font($suir, 2.2rem, #000);
+
+	}
+
+	&__link{
+		@include font($suir, 1.6rem, #dbbe53);
+
+		&:hover {
+			text-decoration: none;
+			color: #dbbe53;
+		}
+	}
+
+	&__right {
+		margin-top: 30px;
+		padding-right: 4px;
+	}
+}

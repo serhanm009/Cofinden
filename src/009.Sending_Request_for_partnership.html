@@ -1,0 +1,79 @@
+//= template/head.html
+<div class="acceptReject__right">
+
+	<!-- Reject button modal -->
+
+	<a href="#" title="" class="oneBtn oneBtn--1 sendInvitationBtn">Send Invitation</a>
+
+
+	<div class="modal fade" id="sendInvitationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog success modal-dialog-centered" role="document">
+			<div class="modal-content sendInvitation__content">
+				<div class="sendInvitation__header">
+					<h2 class="sendInvitation__title">Please confirm invitation aim</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true" class="sendInvitation__close">X</span>
+					</button>
+				</div>
+				<div class="">
+					<p class="sendInvitation__text">Please choose your aim for cooperation. If you have any additional 
+					message indicate it at message section.</p>
+
+					<form action="" method="get" accept-charset="utf-8">
+						<div class="sendInvitation__checkboxes">
+							<div class="sendInvitation__checkBox">
+								<input type="checkbox" class="sendInvitation__checkbox" name="">
+								<h4 class="sendInvitation__subtitle">Partnership</h4>
+							</div>						
+							<div class="sendInvitation__checkBox">
+								<input type="checkbox" class="sendInvitation__checkbox" name="">
+								<h4 class="sendInvitation__subtitle">Outsourcing</h4>
+							</div>
+							<div class="sendInvitation__checkBox">
+								<input type="checkbox" class="sendInvitation__checkbox" name="">
+								<h4 class="sendInvitation__subtitle">Other</h4>
+							</div>
+						</div>
+						<div class="sendInvitation__messageBox">
+							<div class="sendInvitation__sep1"></div>
+							<span class="sendInvitation__message">Message:</span>
+							<div class="sendInvitation__sep2"></div>
+						</div>
+						<textarea name="" placeholder="Add your text" class="sendInvitation__textarea"></textarea>
+					</form>
+				</div>
+
+				<div class="sendInvitation__footer">
+					<a href="#" title="" class="oneBtn cancelInvitation">Cancel</a>
+					<a href="#" title="" class="oneBtn sendInvitation">Send</a>
+					<p class="sendInvitation__foottext">Please read our <a href="#" title="">Privacy Policy</a> before sending invitation letter!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="sendInvitation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog success modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="invitationSuccess__header">
+					<img src="img/success__iconWhite.png" class="" alt="">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true" class="sendInvitation__close">X</span>
+					</button>
+				</div>
+				<div class="invitationSuccess__body">
+					<h3 class="invitationSuccess__title">Success!</h3>
+					<h3 class="invitationSuccess__text">Your invitation has been sent 
+					successfully!</h3>
+
+					<a href="#" title="" class="invitationSuccess__close">Close</a>
+
+			</div>
+		</div>
+	</div>
+	<!-- /Reject button modal -->
+
+
+
+</div>
+//= template/footer.html

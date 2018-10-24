@@ -1,0 +1,112 @@
+.tenderInformation {
+	border: 1px solid #b5bebe;
+	margin-top: 25px;
+
+	&__top {
+		border-bottom: 1px solid #d8dadb;
+		background-color: #f6fafb;
+	}
+
+	&__title {
+		@include font($suisb, 1.8rem, #414141);
+		padding: 24px 0 24px 35px;
+
+	}
+
+	&__bottom {
+		padding: 24px 0 50px 35px;
+		position: relative;
+	}
+
+	&__subtitle {
+		@include font($suisb, 1.6rem, #3a3a3a);
+
+		&--last {
+			margin-bottom: 30px;
+		}
+
+
+	}
+
+	&__textarea {
+		@include font($suil, 1.5rem, #099999);
+		width: 95%;
+		height: 230px;
+		padding: 20px;
+		margin-top: 13px;
+		margin-bottom: 20px;
+	}
+
+	&__input {
+		@include font($suil, 1.5rem, #099999);
+		height: 45px;
+		width: 95%;
+		padding: 20px;
+		margin-top: 13px;
+		margin-bottom: 20px;
+
+
+	}
+
+	&__link {
+		@include font($suisl, 1.5rem, #040404);
+		margin-right: 7px;
+		margin-top: 30px;
+
+		&--1 {
+			color: #dbbe53;
+
+			&:hover +.tenderInformation__delete {
+				display: block;
+			}
+		}
+
+	}
+
+	&__delete {
+		border: 1px solid #dbbe53;
+		width: 5%;
+		border-radius: 20px;
+		text-align: center;
+		position: absolute;
+		bottom: 244px;
+		left: 134px;
+		display: none;
+		padding: 4px 8px;
+	}
+
+	&__attach {
+		border: 1px dashed #dbbe53;
+		// padding: 10px 20px;
+		@include font($suir, 1.6rem, #545454);
+		display: block;
+		width: 95%;
+		height: 75px;
+		text-align: center;
+		padding: 24px 0 0 0;
+		cursor:pointer;
+		background-color: #ebf4f6;
+		margin-top: 18px;
+	}
+
+	&__upload {
+		@include font($suisl, 1.6rem, #dbbe53);
+
+	}
+
+	&__text {
+		@include font($suir, 1.5rem, #099999);
+		padding: 20px 31px 0 0;
+
+	}
+
+	&__bold {
+		@include font($suisb, 1.5rem, #161616);
+
+	}
+}
+
+#file-4 {
+	visibility: hidden;
+	width: 0;
+}

@@ -1,0 +1,51 @@
+.emailConfirmation {
+	text-align: center;
+	padding:260px 0;
+
+	&__box {
+		border-radius: 7px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.24);
+		width: 447px;
+		margin: 0 auto;
+		padding: 47px 65px;	
+	}
+
+	&__logo {
+		width: 119px;
+		margin-bottom: 46px;
+	}
+
+	&__title {
+		@include font($suir, 1.5rem, #1e1e1e);
+		margin-top: 50px;
+	}
+
+	&__subtitle {
+		@include font($suisl, 1.6rem, #4c4e4e);
+		margin-bottom: 112px;
+	}
+
+	&__text {
+		@include font($suisl, 1.3rem, #3a3c3c);
+		margin-top: 23px;
+		margin-bottom: 0;
+	}
+	&__links {
+		@include font($suisl, 1.2rem, #3a3a3a);
+		margin-top: 65px;
+	}
+
+	&__link {
+		@include font($suisl, 1.2rem, #3a3a3a);
+
+		&:hover {
+			text-decoration: none;
+			color: #3a3a3a;
+		}
+	}
+	&__address {
+		@include font($suisl, 1.2rem, #3a3a3a);
+		
+	}
+}

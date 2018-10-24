@@ -1,0 +1,53 @@
+.congratulations{
+
+	text-align: center;
+	height: 777px;
+	padding: 170px 0 250px 0;
+
+	&__box {
+		width: 440px;
+		margin: 0 auto;
+	}
+
+	&__icon {
+		width: 60px;
+		height: 60px;
+		border-radius: 60px;
+		background-color: #b3bd4d;
+		color: #ffffff;
+		font-size: 45px;
+		line-height: 1.3;
+		margin-bottom: 25px;
+	}
+
+	&__title {
+		@include font($suib, 3rem, #232323);
+		margin-bottom: 45px;
+
+	}
+
+	&__subtitle {
+		@include font($suisb, 2.2rem, #b3bd4d);
+		margin-bottom: 20px;
+	}
+
+	&__text{
+		@include font($suir, 1.9rem, #5b5b5b);
+		margin-bottom: 20px;
+		padding: 0 18px;
+	}
+
+	&__link{
+		@include font($suisb, 1.9rem, #fff);
+		background-color: #3abff0;
+		padding: 13px 110px;
+
+		&:hover {
+			background-color: #fff;
+			color: #3abff0;
+			border: 1px solid #3abff0;
+			text-decoration: none;
+		}
+
+	}
+}

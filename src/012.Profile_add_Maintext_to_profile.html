@@ -1,0 +1,32 @@
+//= template/head.html
+              <!-- modal Add butonu -->
+              <button type="button" class="btn btn-primary addBtn modal__btn1"  data-whatever="@getbootstrap">Add</button>
+
+              <div class="modal fade" id="exampleModalServices" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Add Service</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label modal__text">Text *</label>
+                          <label for="message-text" class="col-form-label modal__character">Character left: 1540</label>
+                          <textarea class="form-control modal__textArea" id="message-text" placeholder="Add some description of your portfolio main text" rows="5"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary modal__cancelBtn" data-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary modal__addBtn">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- / modal Add butonu -->
+
+//= template/footer.html

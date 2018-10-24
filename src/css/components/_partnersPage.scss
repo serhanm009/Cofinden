@@ -1,0 +1,22 @@
+.partnersPage {
+	display: flex;
+	justify-content: space-between;
+
+	&__left {
+		width: 74%;
+	}
+
+	&__right {
+		width: 23%;
+		text-align: center;
+		padding-top: 91px;
+
+
+	}
+
+	&__text {
+		@include font($suil, 1.6rem, #3f3f3f);
+		margin-top: 15px;
+		
+	}
+}

@@ -1,0 +1,59 @@
+.editTop {
+	position: relative;
+
+	&__input {
+		width: 0;
+		visibility: hidden;
+	}
+
+	&__label {
+		text-transform: uppercase;
+		@include font($suir, 13px, #3c3c3c);
+		border: 2px solid #32bef1;
+		border-radius: 22px;
+		padding: 11px 68px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, 16%);
+		cursor:pointer;
+		background-color: #fff;
+	}
+
+	&__logo {
+		z-index: 2;
+		border: 1px solid #c6c4d1;
+		border-radius: 3px;
+		width: 23%;
+		text-align: center;
+		padding: 7rem 1.5rem;
+		margin-top: -7.5rem;
+		margin-left: 3.3rem;
+		background-color: white;
+		height: 237px;
+	}
+
+	&__inputLogo {
+		width: 0;
+		visibility: hidden;
+	}
+
+	&__labelLogo {
+		@include font($suir, 17px, #3c3c3c);
+		text-transform: uppercase;
+		cursor: pointer;
+		margin-top: 29px;
+		margin-right: 25px;
+	}
+
+	&__content {
+		display: flex;
+	}
+
+	&__rating {
+		margin-left: 189px;
+		margin-top: -8px;
+	}
+
+
+}

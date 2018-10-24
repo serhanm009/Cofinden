@@ -1,0 +1,57 @@
+.aboutTop {
+	background-image:  url(../../img/Home_imgBig.png);
+	height: 775px;
+	background-size: cover;
+	background-position: top;
+
+	&__overlay {
+		background-color: rgba(179, 189, 77, 0.239);
+		height: 775px;
+		padding-top: 148px;
+		padding-left: 50px;
+
+	}
+
+	&__box {
+		width: 655px;
+		text-align: center;
+	}
+	&__title {
+		@include font($suir, 3rem, #313131);	
+		text-transform: uppercase;
+		margin-bottom: 57px;
+	}	
+
+	&__text {
+		@include font($suisl, 1.9rem, #555555);	
+		margin-bottom: 57px;
+	}
+
+	&__link {
+		@include font($suir, 1.6rem, #303030);	
+		background-color: #b3bd4d;
+		border-bottom: 3px solid #7b7c6f;
+		padding: 17px 47px;
+		display: inline-block;
+		margin-bottom: 160px;
+
+		&:hover {
+			text-decoration: none;
+			background-color: #b3bd00;
+			color: #303030;
+		}
+	}
+
+	&__info {
+		background-color: rgba(50, 49, 49, 0.62);
+		margin-top: -80px;
+		text-align: center;
+		@include font($suir, 2rem, #fff);
+		padding: 25px 0;	
+
+	}
+
+	&__telNum {
+		margin-right: 90px;
+	}
+}

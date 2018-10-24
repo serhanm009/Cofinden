@@ -1,0 +1,25 @@
+.notifications {
+	display: flex;
+	justify-content: flex-end;
+	margin: 9px 0;
+	&__new{
+		background-image:linear-gradient( to right, #a5bda8, #879ebd);
+		padding: 6px 9px;
+		@include font($suisb, 12px, #fff);
+		display: inline-block;	
+		margin-right: 3px;
+	}
+
+	&__icon {
+		background-color: #b3bd4d;
+		padding:7px;
+		display: inline-block;
+		height: 30px;
+	}
+
+	&__null {
+		margin-top: 45px;
+	}
+
+}
+

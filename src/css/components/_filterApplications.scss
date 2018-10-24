@@ -1,0 +1,57 @@
+.filterApplications{
+	display: flex;
+	justify-content: space-between;
+	&__title {
+		@include font($suisl, 1.6rem, #0a0a0a);
+		margin-bottom: 20px;
+	}
+
+	&__subtitle {
+		@include font($suisl, 1.6rem, #0a0a0a);
+		
+	}
+
+	&__select {
+		@include font($suisl, 1.5rem, #0a0a0a);
+		padding: 5px 20px;
+		margin-right: 17px;
+		height: 43px;
+
+		&--1{
+			width: 120px;
+		}
+
+		&--2{
+			width: 150px;
+		}
+	}
+
+	&__dropdown {
+		@include font($suisl, 1.6rem, #0a0a0a);
+		height: 41px;
+		margin-left: 157px;
+		background-color: #fff;
+		border: 1px solid #c1c1c1;
+	}
+
+	&__dropdown-menu {
+		left: -22px !important;
+		top: 5px !important;
+		transform: translate3d(101px, 41px, 0px) !important;
+	}
+
+	&__lineBox {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 20px 0;
+	}
+
+	&__line {
+		width: 730px;
+		height: 1px;
+		background-color: #c1c1c1;
+	}
+
+
+}

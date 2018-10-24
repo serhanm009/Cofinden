@@ -1,0 +1,70 @@
+.budget {
+	border: 1px solid #b5bebe;
+	margin-top: 25px;
+
+	&__top {
+		border-bottom: 1px solid #d8dadb;
+		background-color: #f6fafb;
+	}
+
+	&__title {
+		@include font($suisb, 1.8rem, #414141);
+		padding: 24px 0 24px 35px;
+
+	}
+
+	&__text {
+		@include font($suir, 1.5rem, #3c3c3c);
+
+	}
+
+	&__bottom {
+		padding: 24px 0 50px 35px;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+	}
+
+	&__yourRate {
+		@include font($suisb, 1.5rem, #353535);
+	}
+
+	&__total {
+		@include font($suisl, 1.5rem, #040404);
+
+	}
+
+	&__dolar {
+		@include font($suib, 2.2rem, #b3bd4d);
+		position: absolute;
+		top: 5px;
+		left: 10px;
+	}
+	&__form {
+		position: relative;
+
+	}
+	&__input {
+		height: 44px;
+		width: 250px;
+		text-align: right;
+		font-size: 16px;
+		padding-right: 10px;
+
+	}
+
+	&__recommendation {
+		text-align: center;
+		width: 22%;
+		margin-right: 55px;
+		@include font($suisl, 1.5rem, #252526);
+		
+	}
+
+	&__img {
+		margin-bottom: 20px;
+	}
+}

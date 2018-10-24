@@ -1,0 +1,71 @@
+.welcomeToCofinden {
+	padding: 110px;
+
+	&__title {
+		@include font($suir, 2.6rem, #4b4b4b);
+		margin-bottom: 85px;	
+		text-align: center;
+
+	}
+	&__cards {
+		display: flex;
+	}
+
+	&__cardImg {
+		width: 100%;
+	}
+
+	&__cardImgBox {
+		position: relative;
+	}
+
+	&__cardOverlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(179, 189, 77, 0.361);
+		opacity: 0;
+	}
+
+	&__cardTitle {
+		@include font($suir, 1.8rem, #515151);
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	&__cardText {
+		@include font($suisl, 1.3rem, #555454);
+		text-align: justify;
+	}
+
+	&__card {
+		width: 33.3333%;
+
+		&:hover .welcomeToCofinden__cardBody {
+			background-color: #32bef1;
+			color: #fff;
+		} 
+
+		&:hover .welcomeToCofinden__cardTitle {
+			color: #fff;
+		} 
+
+		&:hover .welcomeToCofinden__cardText {
+			color: #fff;
+		} 
+
+		&:hover .welcomeToCofinden__cardOverlay {
+			opacity: 1;
+		} 
+
+
+	}
+
+	&__cardBody {
+		padding: 50px 20px 45px;
+		width: 100%;
+	}
+}

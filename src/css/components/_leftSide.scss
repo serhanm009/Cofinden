@@ -1,0 +1,145 @@
+.leftSide{
+	width: 21%;
+	height: 584px;
+	margin-right: 2%;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.19);
+	text-align: center;
+	border: 2px solid #c5c4c4;
+
+	&__content {
+		padding: 20px;
+		// width: 275px;
+	}
+
+
+	&__top {
+		height: 70px;
+		background-color: #32bef1;
+		text-align: center;
+
+
+	}
+
+	&__img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		width: 66px;
+	}
+
+	&__logo{
+		position: relative;
+		background-color: white;
+		width: 100px;
+		height: 100px;
+		margin: -75px auto;
+		border: 6px solid #ebf1f3;
+		border-radius: 100px;
+
+	}
+
+	&__title {
+		@include font($suisb, 15px, #0d0d0d);
+		margin-top: 97px;
+
+	}
+
+	&__subtitle {
+		@include font($suir, 12px, #877979);
+		text-transform: uppercase;
+
+	}
+
+	&__firstList {
+		list-style-type: none;
+		padding: 10px 0;
+		margin: 20px 0 0 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		border-top: 1px solid #dbdcde;
+		border-bottom: 1px solid #dbdcde;
+		justify-content: space-between;
+
+	}
+
+	&__firstListItem {
+		display: inline-block;
+		display: flex;
+		flex-direction: column;
+		@include font($suir, 12px, #b5d1db);
+		text-transform: uppercase;
+	}
+
+	&__firstListLine {
+		width: 1px;
+		height: 41px;
+		background-color: #dbdcde;
+	}
+
+	&__firstListValue{
+		@include font($suisb, 16px, #3d3d3d);
+		text-transform: none;
+
+	}
+
+	&__secondList{
+		list-style-type: none;
+		padding: 35px 0 0 0;
+		margin: 0;
+
+		
+	}	
+
+	&__secondListName{
+		@include font($suir, 16px, #4f4f4f);
+		margin-left: 20px;
+	}	
+
+	&__secondListCount{
+		width: 27px;
+		height: 19px;
+		background-color: #b3bd4d;
+		border-radius: 9px;
+		color: white;
+		line-height: 1.8;
+
+	}
+
+	&__secondListItem{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 23px;
+
+	}
+
+	&__secondLink {
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&__bottom{
+		background-color: #e0f4f4;
+		height: 70px;
+		padding: 18px 20px;
+	}
+
+	&__bottomSentence{
+		@include font($suil, 12px, #3e3d3d);
+		margin-bottom: 0;
+	}	
+
+	&__bottomLink{
+		@include font($suir, 16px, #3e3d3d);
+
+		&:hover{
+			text-decoration: none;
+			color: #3e3d3d;
+		}
+	}
+
+}

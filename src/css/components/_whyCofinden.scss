@@ -1,0 +1,62 @@
+.whyCofinden {
+	background-image:  url(../../img/Home_imgBig.png);
+	height: 775px;
+	background-size: cover;
+	background-position: top;
+
+	&__overlay {
+		background-color: rgba(179, 189, 77, 0.239);
+		height: 775px;
+		padding-top: 148px;
+		padding-left: 50px;
+
+	}
+
+	&__box {
+		width: 655px;
+		text-align: center;
+	}
+	&__title {
+		@include font($suir, 3rem, #313131);	
+		text-transform: uppercase;
+		margin-bottom: 57px;
+	}	
+
+	&__text {
+		@include font($cgr, 2rem, #433838);	
+		margin-bottom: 57px;
+	}
+
+	&__link {
+		@include font($suir, 1.6rem, #303030);	
+		background-color: #b3bd4d;
+		border-bottom: 3px solid #7b7c6f;
+		padding: 15px 19px;
+		display: inline-block;
+		margin-bottom: 160px;
+
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+
+	&__searchBox {
+		display: block;
+	}
+
+	&__input {
+		height: 45px;
+		width: 450px;
+		padding-left: 20px;
+		@include font($suil, 1.3rem, #838080);
+	}
+
+	&__btn {
+		background-color: #b3bd4d;
+		@include font($suisb, 1.6rem, #fff);
+		border: none;
+		padding: 9px 30px 12px 30px;
+	}
+
+}

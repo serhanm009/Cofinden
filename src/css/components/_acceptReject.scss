@@ -1,0 +1,126 @@
+.acceptReject {
+	border: 1px solid #d1cfda;
+	padding: 30px 45px;
+	&__top {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+		display: flex;
+	}
+
+	&__img {
+		border: 1px solid #d1cfda;
+		padding: 10px;
+		margin-right: 17px;
+
+	}
+
+	&__companyName {
+		@include font($suir, 1.6rem, #080808);
+
+	}
+
+	&__pre {
+		margin-left: 16px;
+		
+	}
+
+	&__companyJob {
+		@include font($suir, 1.6rem, #7c7b7b);
+		text-transform: uppercase;
+	}
+
+	&__companyInfo {
+		@include font($suir, 1.2rem, #000);
+
+	}
+
+	&__property {
+		@include font($suisb, 1.4rem, #000);
+	}
+
+	&__note {
+		@include font($suisb, 1.5rem, #242424);
+		margin-top: 30px;
+
+	}
+
+	&__text {
+		@include font($suisl, 1.6rem, #456161);
+
+	}
+
+	&__duration {
+		@include font($suisb, 1.5rem, #242424);
+		margin-bottom: 17px;
+	}
+
+	&__ob {
+		@include font($suisb, 1.5rem, #242424);
+	}
+
+	&__durationRight {
+		@include font($suisl, 1.6rem, #242424);
+	}
+
+	&__obRight {
+		@include font($suisl, 1.6rem, #242424);
+	}
+
+	&__attached {
+		@include font($suisb, 1.5rem, #434343);
+		margin-top: 35px;
+	}
+
+	&__file {
+		background-color: #eef0f1;
+		@include font($suisl, 1.4rem, #000000);
+		padding: 7px 19px;
+		display: inline-block;
+		border-radius: 17.5px;
+		margin-right: 8px;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+	}
+
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 18px;
+
+	}
+
+	&__message {
+		padding: 0 71px;
+		margin-top: 15px;
+		margin-bottom: -16px;
+	}
+
+	&__modalHeader {
+		padding: 20px 20px 0 0 ;
+	}
+
+	&__modalBody {
+		padding: 0 50px 28px 50px;
+	}
+
+	&__icon {
+		margin-bottom: 27px;
+	}
+
+	&__modalTitle {
+		margin-bottom: 20px;
+	}
+
+	&__close {
+		@include font($suisb, 2.7rem, #090909 );
+
+	}
+
+}

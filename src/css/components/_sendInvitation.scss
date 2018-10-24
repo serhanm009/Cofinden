@@ -1,0 +1,107 @@
+.sendInvitation {
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #32bef1;
+		padding: 43px 25px 40px 37px;
+	}
+
+	&__title {
+		@include font($suir, 1.8rem, #212121);
+		margin-bottom: 0;
+	}
+
+	&__close {
+		@include font($suisb, 2.3rem, #151515);
+
+	}
+
+	&__text {
+		@include font($suisl, 1.5rem, #515151);
+		margin-bottom: 8px;
+		padding: 25px 77px 11px 39px;
+
+	}
+
+	&__content {
+		border: none;
+		min-width: 557px;
+	}
+
+	&__checkBox {
+		display: flex;
+		align-items: center;
+		margin-right: 33px;
+
+	}
+
+	&__checkbox {
+		width: 16px;
+		height: 16px;
+		margin-right: 8px;
+	}
+
+	&__checkboxes {
+		display: flex;
+		padding: 0 0 23px 39px;
+	}
+
+	&__subtitle {
+		@include font($suisb, 1.5rem, #565656);
+		margin-bottom: 0;
+	}
+
+	&__sep1 {
+		width: 40px;
+		height: 1px;
+		background-color: #d7d7d7;
+	}
+
+	&__sep2 {
+		width: 436px;
+		height: 1px;
+		background-color: #d7d7d7;
+	}
+
+	&__messageBox{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__message {
+		@include font($suisl, 1.5rem, #686767);
+		margin-bottom: 3px;
+
+	}
+
+	&__textarea {
+		width: 485px;
+		height: 195px;
+		@include font($suisl, 1.5rem, #515151);
+		padding: 10px 17px;
+		margin-top: 12px;
+		margin-bottom: 23px;
+		margin-left: 39px;
+
+	}
+
+	&__footer {
+		text-align: right;
+		padding-right: 32px;
+		padding-bottom: -5px; 
+	}
+
+	&__foottext {
+		@include font($suisl, 1.3rem, #515151);
+		text-align: center;
+		margin-top: 20px;
+
+	}
+}
+
+.close {
+	text-shadow : none;
+	opacity: 1;
+}

@@ -1,0 +1,105 @@
+@import "abstracts/bt5start";
+  
+@import "abstracts/function";
+@import "abstracts/mixin";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/fonts";
+
+@import "components/aboutUs"; 
+@import "components/headerNav"; 
+@import "components/dropdownIcon"; 
+@import "components/leftSide"; 
+@import "components/notifications"; 
+@import "components/rightSide"; 
+@import "components/cooperation"; 
+@import "components/info"; 
+@import "components/rating"; 
+@import "components/tenders"; 
+@import "components/partners"; 
+@import "components/services"; 
+@import "components/products"; 
+@import "components/awards"; 
+@import "components/portfolio"; 
+@import "components/recommendations"; 
+@import "components/addBtn"; 
+@import "components/editIcons"; 
+@import "components/modal"; 
+@import "components/success"; 
+@import "components/homeTop"; 
+@import "components/signIn"; 
+@import "components/signUp"; 
+@import "components/homeCarousel"; 
+@import "components/whyCofinden"; 
+@import "components/congratulations"; 
+@import "components/noTender"; 
+@import "components/searchBox"; 
+@import "components/advancedSearch"; 
+@import "components/noTenderFlag"; 
+@import "components/foundTender"; 
+@import "components/applyBox"; 
+@import "components/contentOfTender"; 
+@import "components/companyOfTender"; 
+@import "components/property"; 
+@import "components/companyTender"; 
+@import "components/submitProposal"; 
+@import "components/proposalAdvice"; 
+@import "components/budget"; 
+@import "components/projectDuration"; 
+@import "components/details"; 
+@import "components/proposalBox"; 
+@import "components/filterApplications"; 
+@import "components/acceptReject"; 
+@import "components/tenderAdvice"; 
+@import "components/tenderInformation"; 
+@import "components/postTenderBudget"; 
+@import "components/features"; 
+@import "components/postTenderBox"; 
+@import "components/budgetInfo"; 
+@import "components/editTop"; 
+@import "components/editAbout"; 
+@import "components/editRecommendations"; 
+@import "components/editAwards"; 
+@import "components/editServices"; 
+@import "components/editPortfolio"; 
+@import "components/recommendModal"; 
+@import "components/sendInvitation"; 
+@import "components/invitationSuccess"; 
+@import "components/search"; 
+@import "components/searchRectangle"; 
+@import "components/searchForCompany"; 
+@import "components/foundCompany"; 
+@import "components/recentTender"; 
+@import "components/notificationBox"; 
+@import "components/notificationList"; 
+@import "components/notificationsListPage"; 
+@import "components/partnersPage"; 
+@import "components/partnerRequest"; 
+@import "components/partnersInTotal"; 
+@import "components/emailConfirmation"; 
+@import "components/alertBox"; 
+@import "components/FAQ"; 
+@import "components/aboutTop"; 
+@import "components/welcomeToCofinden"; 
+@import "components/corporate"; 
+
+
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/firstLayout";
+@import "layout/aboutFooter";
+@import "layout/headerSecond";
+@import "layout/headerThird";
+
+@import "page/userProfile";
+@import "page/page21";
+
+
+
+@import "abstracts/bt5end";
+    

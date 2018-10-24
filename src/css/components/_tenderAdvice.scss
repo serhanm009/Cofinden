@@ -1,0 +1,24 @@
+.tenderAdvice {
+	border: 1px solid #b5bebe;
+	margin-top: 40px;
+
+	&__top {
+		border-bottom: 1px solid #d8dadb;
+		background-color: #f6fafb;
+	}
+
+	&__title {
+		@include font($suisb, 1.8rem, #414141);
+		padding: 19px 0 19px 35px;
+
+	}
+
+	&__text {
+		@include font($suir, 1.5rem, #3c3c3c);
+
+	}
+
+	&__bottom {
+		padding: 20px 0 46px 35px;
+	}
+}

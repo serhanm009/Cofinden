@@ -1,0 +1,118 @@
+.addBtn {
+	position: absolute;
+    top: 34px;
+    right: 15px;
+    background-color: #dbbe53;
+    padding: 5px 30px;
+    border: none;
+    @include font($suir, 1.5rem, #000000);
+}
+
+.addBtn1 {
+	position: absolute;
+    top: 34px;
+    right: 120px;
+    background-color: #dbbe53;
+    padding: 5px 30px;
+    border: none;
+    @include font($suir, 1.5rem, #000000);
+}
+
+.addBtn2 {
+    background-color: #dbbe53;
+    padding: 5px 30px;
+    border: none;
+    @include font($suir, 1.5rem, #000000);
+}
+
+.addBtn3 {
+    background-color: #dbbe53;
+    padding: 15px 43px 12px;
+    border: none;
+    @include font($suir, 1.5rem, #fff);
+
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: #dbbe00;
+
+    }
+}
+
+.oneBtn {
+    background-color: #fff;
+    padding: 4px 28px 7px 28px;
+    border: 1px solid #32bef1;
+    @include font($suir, 1.4rem, #5b5b5b);
+    display: inline-block;
+
+
+    &:hover {
+        @include font($suir, 1.4rem, #fff);
+        background-color: #32bef1;
+        text-decoration: none;
+        border-color: #32bef1;
+
+    }
+
+    &--1 {
+        margin-right: 7px;
+    }
+
+    &--2 {
+        border-radius: 3px;
+    }
+
+    &--3 {
+        margin-bottom: 26px;
+        padding: 12px 57px;
+        @include font($suisb, 1.5rem, #fff);
+        background-color: #32bef1;
+
+        &:hover {
+            @include font($suisb, 1.5rem, #fff);
+            background-color: #32abf4;
+            border-color: transparent;
+
+        }
+
+    }
+
+    &--4 {
+        @include font($suir, 1.5rem, #5b5b5b);
+        margin-left: 10px;
+        &:hover {
+            @include font($suir, 1.5rem, #fff);
+            background-color: #b3bd4d;
+            border-color: transparent;
+
+        }
+    }
+}
+
+.blueBtn {
+   @include font($suir, 1.5rem, #fff);
+   background-color: #32bef1;
+   padding: 10px 32px;
+   display: inline-block;
+
+   &:hover {
+       @include font($suir, 1.5rem, #fff);
+       background-color: #32a7f1;
+       text-decoration: none;
+   }
+}
+
+.mainBtn {
+   @include font($suir, 1.5rem, #fff);
+   background-color: #b3bd4d;
+   padding: 10px 32px;
+   display: inline-block;
+
+   &:hover {
+       @include font($suir, 1.5rem, #fff);
+       background-color: #b3bd00;
+       text-decoration: none;
+   }
+
+}

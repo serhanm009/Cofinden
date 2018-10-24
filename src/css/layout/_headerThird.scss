@@ -1,0 +1,43 @@
+.headerThird {
+	background-color: #9b9b9b;
+	display: flex;
+	justify-content: space-between;
+	padding: 23px 0 22px 35px ;
+
+	&__logo {
+		width: 169px;
+		height: 48px;
+	}
+
+	&__link {
+		@include font($suisl, 16px, #fff);
+
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+
+	}
+
+	&__right {
+		display: flex;
+		align-items: center;
+		padding-right: 50px;
+	}
+
+	&__signIn {
+		@include font($suisl, 20px, #fff);
+		border-width: 1px;
+		border-color: rgb(255, 255, 255);
+		border-style: solid;
+		border-radius: 3px;
+		padding: 12px 75px 10px 75px;
+		margin-left: 30px;
+
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+			background-color: #777878;
+		}
+	}
+}

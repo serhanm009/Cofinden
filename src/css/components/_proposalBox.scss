@@ -1,0 +1,10 @@
+.proposalBox {
+	margin-top: 30px;
+	padding: 30px;
+
+	&__title {
+		@include font($suir, 1.5rem, #646464);
+
+	}
+
+}

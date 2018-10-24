@@ -1,0 +1,36 @@
+.companyOfTender {
+
+	&__img {
+		border: 1px solid #b7b7b7;
+		padding: 35px;
+	}
+
+	&__name {
+		@include font($suisb, 1.4rem, #0d0d0d);
+		margin-top: 25px;
+	}
+
+	&__subName {
+		@include font($suir, 1.3rem, #877979);
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+
+	&__link {
+		@include font($suir, 1.5rem, #099999);
+		border: 1px solid #32bef1;
+		padding: 10px;
+		border-radius: 5px;
+		display: inline-block;
+		&:hover {
+			text-decoration: none;
+			background-color: #32bef1;
+			color: #fff;
+			
+		}
+
+
+	}
+
+	
+}

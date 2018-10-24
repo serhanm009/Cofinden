@@ -1,0 +1,102 @@
+.contentOfTender {
+	border: 1px solid #b5bebe;
+	margin: 45px 0px 20px 0px;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 35px 30px 35px 44px;
+		border-bottom: 1px solid #b5bebe;
+	}
+
+	&__topTitle {
+		@include font($suisb, 1.8rem, #1c1b1b);
+	}
+
+	&__main {
+		display: flex;
+		padding-top: 50px;
+	}
+
+	&__mainLeft {
+		width: 25%;
+		text-align: center;
+		padding: 0 44px;
+
+	}
+
+	&__mainRight {
+		width: 75%;
+		margin-bottom: 40px;
+	}
+
+	&__mainRightTop {
+		display: flex;
+		justify-content: space-between;
+		padding-right: 50px;
+		border-bottom: 1px solid #bfbfbf;
+		padding-bottom: 45px;
+	}
+
+	&__mainRightTitle {
+		@include font($suisb, 1.5rem, #000);
+		margin-bottom: 25px;
+		margin-top: 25px;
+
+		&--2 {
+			border-bottom: 1px solid #b5bebe;
+			padding-bottom: 20px;
+			margin-top: 50px;
+		}
+		
+	}
+
+	&__mainRightSubtitle {
+		@include font($suir, 1.6rem, #545454);
+
+	}
+
+	&__mainRightLink {
+		@include font($suisl, 1.4rem, #000);
+		margin-left: 20px;
+		&:hover {
+			color: #000;
+			text-decoration: none;
+		}
+
+	}
+	
+	&__mainRightText {
+		@include font($suisl, 1.6rem, #456161);
+		padding-right: 32px;
+
+	}
+
+	&__bottom {
+		border-top: 1px solid #b5bebe;
+		display: flex;
+		justify-content: space-around;
+		padding: 30px 100px;
+
+	}
+
+	&__bottomTitle {
+		@include font($suir, 1.5rem, #099999);
+
+
+	}
+
+	&__dots {
+		display: flex;
+	}
+
+	&__dot {
+		width: 5px;
+		height: 5px;
+		background-color: #064a64;
+		border-radius: 5px;
+		margin-right: 2px;
+	}
+
+}

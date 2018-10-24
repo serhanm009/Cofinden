@@ -1,0 +1,28 @@
+.editAwards {
+	display: flex;
+	&__box {
+		border: 3px dashed #c6c6c6;
+		width: 364px;
+		display: flex;
+		padding: 15px 10px 0 19px;
+		margin: 0 auto;
+	}
+
+	&__icon {
+		margin-right: 20px;
+	}
+
+	&__title {
+		@include font($suir, 1.3rem, #3c3c3c);
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+
+	&__subtitle {
+		@include font($suisl, 1.3rem, #3c3c3c);
+	}
+
+	&__btn {
+		margin-top: 60px;
+	}
+}
