@@ -37,7 +37,8 @@
 
 		&:hover {
 			text-decoration: none;
-			color: #fff;
+			color: #303030;
+			background-color: rgb(179, 189, 40);
 		}
 	}
 
@@ -53,10 +54,15 @@
 	}
 
 	&__btn {
-		background-color: #b3bd4d;
+		background-color: #b3bd4d ;
 		@include font($suisb, 1.6rem, #fff);
 		border: none;
 		padding: 9px 30px 12px 30px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgb(179, 189, 40);
+		}
 	}
 
 }

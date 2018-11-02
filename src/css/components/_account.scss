@@ -1,0 +1,49 @@
+.account {
+	padding: 30px 145px 190px 164px;
+
+	&__left {
+		width: 30%;
+	}
+	&__right {
+		width: 70%;
+
+	}
+
+	&__title {
+		@include font($suisb, 1.8rem, #0c0c0c);	
+		border-bottom: 1px solid #bebebe;
+		padding-bottom: 12px;
+		margin-bottom: 23px;
+
+
+	}
+
+	&__content {
+		display: flex;
+	}
+
+	&__menu {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	&__itemLink {
+		@include font($suir, 1.5rem, #000);	
+
+		&:hover {
+			color: #000;
+			text-decoration: none;
+		}
+
+	}
+
+	&__menuItem {
+		margin-bottom: 11px;
+	}
+
+	&__menuItemActive {
+		@include font($suisb, 1.5rem, #000);	
+
+	}
+}

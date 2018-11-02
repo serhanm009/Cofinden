@@ -7,6 +7,16 @@
 		
 	}
 
+	&__img {
+		width: 40px;
+		height: 40px;
+	}
+
+	&__img2 {
+		width: 29px;
+		height: 23px;
+	}
+
 	&__heading {
 		@include font($mpr, 1.9rem, #404040);
 		margin-bottom: 26px;

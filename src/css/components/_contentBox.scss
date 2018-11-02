@@ -1,0 +1,107 @@
+.contentBox {
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(101, 101, 101, 0.17);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    // opacity: 0.17;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+
+    hr{
+        border-color: #f2efef;
+    }
+    
+    &__title {
+        font-weight: 600;
+        font-size: 11.5pt;
+        font-family: "Segoe UI";
+        color: rgb(28, 27, 27);
+    }
+      
+    &__p {
+        font-size: 10.48pt;
+        font-family: "Segoe UI";
+        color: rgb(112, 110, 110);
+    }
+
+    &__imageHolder{        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__logoHolder {
+        margin-top: 20px;
+        margin-left: 18px;
+        margin-right: 18px;
+        display: inline-block;
+    }
+
+    &__textHolder {
+        margin-top: 15px;
+        display: table-cell;
+        vertical-align: middle;
+        display: inline-block;
+        width: 70%;
+    }
+
+    &__timeLeftText {
+        margin-left: 18px;
+        font-size: 9.9pt;
+        font-family: "Myriad Pro";
+        color: rgb(114, 114, 114);
+
+        i {
+            margin-right: 8px;
+        }
+    }
+
+    &__deadlineHolder {
+        position: relative;
+    }
+
+    &__link {
+        position: absolute;
+        right: 15px;
+        top: 0px;
+    }
+    
+    &__mainContentHolder {
+        position: relative;
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        font-size: 9pt;
+        font-family: "Segoe UI";
+        color: rgb(71, 71, 71);
+    }
+
+    .dropdown-menu.show {
+        padding: 0;
+    }
+
+    .btn-secondary {
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: -3px;
+        color: #064a64;
+        border-color: transparent;
+        background-color: transparent;
+
+        &:focus {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    }
+
+    a {
+        font-size: 10.4pt
+    }
+
+    
+}

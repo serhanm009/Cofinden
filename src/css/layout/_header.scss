@@ -1,45 +1,11 @@
 .header{
 	height: 75px;
 	background-color: #f3f7f8;
+	border-bottom: 1px solid #ebebeb;
 
-	&__form {
-		position: relative;
-		margin-left: auto;
-
-		&--input{
-			height: 45px;
-			border-radius: 4px;
-			@include font($cgr, 16px, #b2b1ba);
-			@media (min-width: 1200px){
-				width: 325px !important;
-			}
-
-
-			@media (min-width: 1300px){
-				width: 404px !important;
-			}
-
-			@media (min-width: 1400px){
-				width: 453px !important;
-			}
-
-		}
-
-		&--btn{
-			position: absolute;
-			right: 4px;
-			border-color: transparent;
-			height: 100%;
-			width: 50px;
-			color: #ababab;
-			font-size: 16px;
-
-			&:hover {
-				background-color: transparent;
-				border-color: transparent;
-				color: #ababab;
-			}
-		}
+	&__dropdownIcon {
+		background-color: #fff;
+		height: 39px;
 	}
 }
 

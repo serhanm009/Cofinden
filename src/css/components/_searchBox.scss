@@ -6,6 +6,13 @@
 		width: 628px;
 		padding-left: 20px;
 		@include font($suil, 1.3rem, #838080);
+		border-radius: 2px;
+		border: none;
+		border-width: 1px;
+		border-color: rgb(183, 183, 183);
+		border-style: solid;
+
+
 	}
 
 	&__btn {
@@ -13,5 +20,10 @@
 		@include font($suisb, 1.6rem, #fff);
 		border: none;
 		padding: 9px 30px 12px 30px;
+
+		&:hover {
+			background-color: #b3bd00;
+			cursor: pointer;
+		}
 	}
 }

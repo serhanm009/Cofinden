@@ -10,23 +10,34 @@
 	}
 
 	&__link {
-		border: 1px solid #c6c6c6;
 		padding: 15px 24px;
 		@include font($suisl, 1.8rem, #282b2c);
 		display: inline-block;
+		text-align: center;
+		margin-top: 0 !important;
+
+		border-width: 1px;
+		border-color: rgb(198, 198, 198);
+		border-style: solid;
+		border-radius: 2px;
+
+
 
 		&:hover {
 			text-decoration: none;
-			border: 1px solid #282b2c;
+			color: #282b2c;
 		}
 
 		&--1 {
 			border-color:transparent;
+			padding: 15px 42px;
+
 
 		}		
 
 		&--2 {
-			padding: 15px 75px;
+			width: 205px;
+
 		}
 
 	}

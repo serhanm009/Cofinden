@@ -1,0 +1,216 @@
+.offerContent {
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-width: 1px;
+		border-color: rgb(193, 193, 193);
+		border-style: solid;
+		background-color: rgb(243, 248, 249);
+		padding: 22px 27px 27px 35px;
+	}
+
+	&__title {
+		@include font($suir, 1.8rem, #000);
+		margin: 0;
+
+	}
+
+	&__close {
+		@include font($suir, 2.6rem, #000);
+
+		&:hover {
+			text-decoration: none;
+		}
+
+	}
+
+	&__modal-content {
+		border:none;
+		padding-bottom: 0;
+	}
+
+	&__main {
+		display: flex;
+		padding-right: 45px;
+
+	}
+
+	&__mainLeft{
+		width: 30%;
+		text-align: center;
+	}
+
+	&__mainRight{
+		width: 70%;
+	}
+
+	&__mainRightTop {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 25px;
+
+	}
+
+	&__logo {
+		border-width: 1px;
+		border-color: rgb(183, 183, 183);
+		border-style: solid;
+		border-radius: 3px;
+		width: 131px;
+		height: 124px;
+		padding: 24px 17px 24px 25px;
+		margin-top: 50px;
+
+	}
+
+	&__title1 {
+		@include font($suisb, 1.4rem, #0d0d0d);
+		padding: 0 50px;
+		padding-top: 25px;
+		
+	}
+
+	&__title2 {
+		@include font($suir, 1.3rem, #877979);
+		text-transform: uppercase;
+
+	}
+
+	&__title3{
+		@include font($suisl, 1.5rem, #000);
+
+	}
+
+	&__num {
+		@include font($suib, 1.5rem, #000);
+
+	}
+
+	&__title4 {
+		@include font($suisl, 1.5rem, #242323);
+
+	}
+	
+	&__valid {
+		@include font($suisb, 1.5rem, #000);
+
+	}
+
+	&__interested {
+		text-align: center;
+	}
+
+	&__img {
+		width: 15px;
+		height: 15px;
+		margin-right: 7px;
+	}
+
+	&__imgMain {
+		width: 590px;
+		height: 300px;
+	}
+
+	&__title5 {
+		@include font($suir, 1.8rem, #090909);
+		margin-top: 30px;
+		margin-bottom: 15px;
+		
+	}
+
+	&__text {
+		@include font($suisl, 1.5rem, #494848);
+
+	}
+
+	&__link {
+		@include font($suisl, 1.4rem, #000);
+		background-color: rgba(229, 233, 234, 0.671);
+		border-radius: 40px;
+		padding: 10px 18px;
+		display: inline-block;
+
+		&--first {
+			margin-right: 15px;
+		}
+
+		&:hover {
+			text-decoration: none;
+			color: #000;
+		}
+
+
+	}
+	
+	&__attached {
+		@include font($suisb, 1.5rem, #434343);
+		margin-top: 30px;
+		margin-bottom:15px;
+
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-around;
+		border-top-width: 1px;
+		border-top-color: rgb(193, 193, 193);
+		border-top-style: solid;
+		background-color: rgb(243, 248, 249);
+		margin-top: 20px;
+		padding: 20px 0;
+	}
+
+	&__days {
+		@include font($suir, 1.5rem, #099999);
+
+	}
+
+	&__modal {
+		overflow: scroll;
+	}
+
+	&__sep {
+		height: 10px;
+		background-color: #333333;
+	}
+
+	&__sendBox {
+		border: 1px solid #b5bebe;
+		padding: 20px 33px;
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+
+		&__title {
+			@include font($suir, 1.5rem, #646464);
+
+		}
+
+		&__cancelLink{
+			@include font($suisb, 1.6rem, #525252);
+			margin-right: 35px;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		&__applyLink{
+			@include font($suisb, 1.6rem, #fff);
+			background-color: #dbbe53;
+			padding: 10px 30px;
+			border: 1px solid;
+
+			&:hover {
+				text-decoration: none;
+				background-color: #fff;
+				color: #dbbe53;
+				border: 1px solid #dbbe53;
+			}
+		}
+	}
+	
+}

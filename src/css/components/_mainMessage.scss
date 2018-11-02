@@ -1,0 +1,53 @@
+.mainMessage {
+
+	&__top {
+		display: flex;
+		padding-left: 30px;
+	}
+
+	&__top1 {
+		padding-bottom:17.5px;
+	}
+	&__title {
+		@include font($suir, 1.6rem, #0d0d0d);	
+
+	}
+
+	&__title2 {
+		@include font($suisl, 1.6rem, #099999);	
+		text-align: center;
+		margin-bottom: 50px;
+		margin-top: 30px;
+
+	}
+
+	&__subtitle {
+		@include font($suir, 1.2rem, #099999);	
+		text-transform: uppercase;
+		margin-bottom: 0;
+
+	}
+
+	&__img {
+		width: 26px;
+		height: 22px;
+		border: 1px solid #a39e9e;
+		border-radius: 2px;
+		margin-left: 15px;
+	}
+
+	&__dateBox {
+		border-bottom: 1px solid #e8e2e2;
+		padding : 20px 0 18px 37px;
+	}
+
+	&__date {
+		@include font($suisl, 1.5rem, #099999);	
+
+	}
+
+	&__content {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}

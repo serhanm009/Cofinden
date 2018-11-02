@@ -1,0 +1,53 @@
+.newsDetails {
+	padding: 93px 0 539px 0;
+	&__card {
+		margin: 0 auto;
+		width: min-content;
+	}
+
+	&__title {
+		@include font($suisb, 28px, #454343);
+		margin-bottom: 35px;
+
+	}
+
+	&__authorBox {
+		display: flex;
+		align-items: center;
+		margin-bottom: 32px;
+	}
+
+
+	&__author {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__imgSmall {
+		margin-right: 13px;
+		border: 1px solid #b5b3b4;
+		border-radius: 2px;
+		width: 55px;
+		height: 55px;
+	}
+
+	&__written {
+		@include font($suir, 13px, #7a7a7a);
+
+	}
+
+	&__writer {
+		@include font($suisb, 15px, #434141);
+
+	}
+
+	&__imgBig {
+		margin-bottom: 40px;
+		width: 665px;
+		height: 352px;
+	}
+
+	&__text {
+		@include font($suisl, 16px, #454343);
+	}
+}

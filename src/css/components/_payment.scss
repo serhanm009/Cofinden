@@ -1,0 +1,136 @@
+.payment {
+
+	&__account {
+		padding: 30px 65px 190px 164px;
+
+	}
+
+	&__accountTitle {
+		width: 90%;
+
+	}
+	&__title {
+		@include font($suir, 19px, #000);
+		
+	}
+	&__subtitle {
+		@include font($suisl, 15px, #838383);
+
+	}
+
+	&__set {
+		@include font($suir, 16px, #303030);
+
+	}
+	&__balance {
+		@include font($suir, 16px, #3c3c3c);
+
+	}
+
+	&__balanceBudget {
+		@include font($suisb, 18px, #3c3c3c);
+	}
+
+	&__balanceBox {
+		margin-top: 48px;
+		margin-bottom: 52px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__content {
+		border-top: 1px solid #d0d0d0;
+		padding-top: 31px;
+		display: flex;
+		padding-bottom: 54px;
+	}
+
+	&__left {
+		display: flex;
+		flex-direction: column;
+		width: 20%;
+		justify-content: center;
+		align-items: center;
+		margin-right: 25px;
+	}
+
+	&__right {
+		width: 80%;
+
+	}
+
+	&__btn {
+		border-width: 1px;
+		border-color: rgb(183, 183, 183);
+		border-style: solid;
+		border-radius: 3px;
+		background-color: rgb(255, 255, 255);
+		@include font($suisl, 16px, #181818);
+		margin-top: 20px;
+		padding: 10px 28px;
+		cursor:pointer;
+
+	}
+
+	&__title2 {
+		@include font($suisb, 19px, #131313);
+		margin-bottom: 16px;
+	}
+
+	&__text1 {
+		@include font($suisl, 16px, #000);
+		margin-bottom: 2px;
+	}
+
+	&__text2 {
+		@include font($suisl, 15px, #099999);
+		margin-bottom: 0;
+		margin-top: 8px;
+	}
+
+	&__text3 {
+		@include font($suisl, 15px, #099999);
+	}
+	&__paypal {
+		@include font($suir, 16px, #b3bd4d);
+	}
+
+	&__bottom {
+		border-width: 1px;
+		border-color: rgb(181, 190, 190);
+		border-style: solid;
+		border-radius: 2px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		padding-top: 26px;
+		padding-bottom: 20px;
+
+	}
+
+	&__by {
+		@include font($suir, 16px, #282828);
+
+	}
+
+	&__method {
+		@include font($suisb, 15px, #282828);
+
+	}
+
+	&__btn2 {
+		border: none;
+		cursor: pointer;
+		border-radius: 3px;
+		background-color: rgb(219, 190, 83);
+		box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.41);
+
+
+	}
+
+
+}

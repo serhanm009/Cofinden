@@ -21,7 +21,7 @@
 	}
 
 	&__title {
-		@include font($suib, 3rem, #232323);
+		@include font($suib, 3rem, #5c5b5b);
 		margin-bottom: 45px;
 
 	}
@@ -41,11 +41,11 @@
 		@include font($suisb, 1.9rem, #fff);
 		background-color: #3abff0;
 		padding: 13px 110px;
-
+		border-radius: 2px;
+		display: inline-block;
 		&:hover {
-			background-color: #fff;
-			color: #3abff0;
-			border: 1px solid #3abff0;
+			background-color: rgb(58, 175, 240);
+			color: #fff;
 			text-decoration: none;
 		}
 

@@ -21,26 +21,36 @@
 
 	&__input {
 		width: 440px;
-		height: 50px;
 		display: block;
 		margin-bottom: 30px;
 		@include font($suisl, 1.6rem, #099999);
-		padding: 0px 10px;
+		padding: 8px 0 10px 21px;
+
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgb(153, 153, 153);
+		border-radius: 2px;
+
+
 
 	}
 
 	&__signIn {
-		display: block;
+		width: 100%;
+		border: none;
+		cursor: pointer;
 		@include font($suisb, 1.9rem, #fff);
-		background-color: #3abff0;
 		padding: 12px 0;
 		margin-bottom: 35px;
 
-		// width: 35.7%;
+		background-color: rgb(58, 191, 240);
+		border-radius: 2px;
+
 
 		&:hover {
 			text-decoration: none;
 			color: #fff;
+			background-color: rgb(55, 177, 226);
 		}
 
 	}
@@ -78,6 +88,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
 	}
 
 	&__compalleMember {

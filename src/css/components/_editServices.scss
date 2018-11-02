@@ -8,10 +8,6 @@
 		height: 245px;
 		margin: 0 auto;
 	}
-	&__input{
-		width: 0;
-		visibility: hidden;
-	}
 	&__label {
 		text-transform: uppercase;
 		@include font($suir, 13px, #3c3c3c);
@@ -22,6 +18,11 @@
 		margin-bottom: 23px;
 		cursor:pointer;
 		background-color: #fff;
+		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 
 	&__paragraph {

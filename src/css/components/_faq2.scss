@@ -1,0 +1,48 @@
+.faq2 {
+	background-color: #F4F5F7;
+	padding: 99px 20px 344px;
+
+	&__question {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	&__title {
+		@include font($suisl, 2.7rem, #515050);
+
+	}
+
+	&__header {
+		border-bottom: 2px solid #e1d8d9;
+	}
+	&__btn {
+		width: 100%;
+		text-decoration: none;
+		padding: 18px 10px;
+		@include font($suisl, 1.9rem, #000);
+
+
+
+		&:hover {
+			text-decoration: none;
+			color: #000;
+		}
+		&:focus {
+			text-decoration: none;
+			color: #000;
+		}
+	}
+
+	&__text {
+		@include font($suisl, 1.6rem, #515050);
+		background-color: #F4F5F7;
+
+	}
+
+	&__card {
+		background-color: #F4F5F7;
+		border: none;
+	}
+}

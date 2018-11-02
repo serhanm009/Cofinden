@@ -11,6 +11,22 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- <meta name="viewport" content="initial-scale=1"> -->
+    
+    <script type="text/javascript">
+        window.onerror = function (errorMsg, url, lineNumber) {
+            var s = '';
+            s += "Javascript error!";
+            s += "\n----------------------------------------\n";
+            s += errorMsg;
+            s += "\nFile : " + url;
+            s += "\nLine : " + lineNumber;
+            alert(s);
+        }
+    </script>
+
+    
+
+
     <link rel="stylesheet" type="text/css" href="libs/normalize.css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
@@ -29,19 +45,23 @@
 <header id="header" class="header">
     <div class="myContainer">
        <nav class="navbar navbar-expand-sm navbar-light headerNav">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" class="img-fluid headerNav__logo" alt="Logo Image">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="headerNav__left">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" class="img-fluid headerNav__logo" alt="Logo Image">
+            </a>
+        </div>
 
-            <form class="form-inline my-2 my-lg-0 header__form">
-                <input class="form-control mr-sm-2 header__form--input" type="search" placeholder="Search for companies..." aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0 header__form--btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        <div class="headerNav__right">
+
+            <form action="" method="get" accept-charset="utf-8">
+
+                <div class="headerNav__form">
+                    <input type="text" name="" placeholder="Search for companies..." class="headerNav__input">
+                    <button type="" class="headerNav__btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                
+                
             </form>
-
             <ul class="navbar-nav headerNav__navbar-nav">
                 <li class="nav-item headerNav__item headerNav__item--first">
                     <a class="nav-link headerNav__link headerNav__link--first" href="#">Try Premium for Free <span class="sr-only">(current)</span></a>
@@ -52,7 +72,7 @@
                 <li class="nav-item headerNav__item">
                     <a class="nav-link headerNav__link" href="#">Tenders</a>
                 </li>
-                <li class="nav-item headerNav__item">
+                <li class="nav-item headerNav__item headerNav__item--last">
                     <a class="nav-link headerNav__link headerNav__link--last" href="#">
                         <div class="headerNav__services">
                             <div class="headerNav__boxes">
@@ -60,8 +80,8 @@
                                 <div class="headerNav__box"></div>
                             </div>
                             <div class="headerNav__boxes">
-                                <div class="headerNav__box"></div>
-                                <div class="headerNav__box headerNav__box--last"></div>
+                                <div class="headerNav__box headerNav__box--bottom"></div>
+                                <div class="headerNav__box headerNav__box--last headerNav__box--bottom"></div>
                             </div>
                         </div>
                         <span>Services</span>
@@ -71,7 +91,7 @@
 
                 <li class="nav-item headerNav__item dropdown">
                     <a class="nav-link headerNav__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <div class="dropdownIcon">
+                        <div class="dropdownIcon header__dropdownIcon">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             <span class="dropdownIcon__line">|</span>
                             <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -89,7 +109,9 @@
                 </li>
             </ul>
         </div>
-    </nav>
+
+    </div>
+</nav>
 </div>
 </header>
 <!-- /header -->
@@ -98,14 +120,20 @@
 	<div class="myContainer">
 		<!-- leftSide -->
 		<div class="noTender__top">
-			<h2>Lorem ipsum dolor</h2>
+			<div class="noTender__topLeft">
+				<h2 class="noTender__title">Lorem ipsum dolor</h2>
+				
+			</div>
+			<div class="noTender__topRight">
+				<ul class="noTender__topList">
+					<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
+					<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
+					<li class="noTender__topListItem noTender__topListItem--last"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
+					<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
+				</ul>
+			</div>
 
-			<ul class="noTender__topList">
-				<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
-				<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
-			</ul>
+			
 		</div>
 
 		<div class="page">
@@ -174,8 +202,8 @@
 			<!-- /leftSide -->
 			<div class="rightSide">
 				<div class="postATenderBox">
-					<div class="searchBox">
-						<input type="text" name="" class="searchBox__input" placeholder="Add keywords to find tenders...">
+					<div class="searchBox postATenderBox__searchBox">
+						<input type="text" name="" class="searchBox__input postATenderBox__input" placeholder="Add keywords to find tenders...">
 						<button class="searchBox__btn">Search</button>
 					</div>
 
@@ -184,37 +212,46 @@
 
 				<div class="advancedSearch">
 					<h2 class="advancedSearch__title">Advanced Search</h2>
-					<select class="advancedSearch__select">
-						<option hidden>Country</option>
-						<option>1</option>
-						<option>2</option>
-					</select>
+					<form action="" method="" accept-charset="utf-8">
+						<div class="advancedSearch__selects">
+							<div>
+								<select class="advancedSearch__select advancedSearch__select--first">
+									<option hidden>Country</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
 
-					<select class="advancedSearch__select">
-						<option hidden>City</option>
-						<option>1</option>
-						<option>2</option>
-					</select>
+								<select class="advancedSearch__select">
+									<option hidden>City</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
 
-					<select class="advancedSearch__select">
-						<option hidden>Field of Operation</option>
-						<option>1</option>
-						<option>2</option>
-					</select>					
-					<select class="advancedSearch__select">
-						<option hidden>Rating</option>
-						<option>1</option>
-						<option>2</option>
-					</select>					
-					<select class="advancedSearch__select">
-						<option hidden>Sort by  &nbsp;&nbsp;|</option>
-						<option>1</option>
-						<option>2</option>
-					</select>
+								<select class="advancedSearch__select">
+									<option hidden>Field of Operation</option>
+									<option>1</option>
+									<option>2</option>
+								</select>					
+								<select class="advancedSearch__select advancedSearch__select--rating">
+									<option hidden>Rating</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
+							</div>
+							<div>
+								<select class="advancedSearch__select advancedSearch__select--last">
+									<option hidden>Sort by  &nbsp;&nbsp;|</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
+							</div>
+						</div>
+					</form>
+
 				</div>
 
 				<div class="noTenderFlag">
-					<img src="img/flag.png" alt="">
+					<img src="img/flag.png" class="img-fluid noTenderFlag__img" alt="">
 					<h2 class="noTenderFlag__title">Sorry!</h2>
 					<p class="noTenderFlag__text">Unfortunately there is no Tender matching 
 					your criteria. </p>

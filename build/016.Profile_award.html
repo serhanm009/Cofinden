@@ -11,6 +11,22 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- <meta name="viewport" content="initial-scale=1"> -->
+    
+    <script type="text/javascript">
+        window.onerror = function (errorMsg, url, lineNumber) {
+            var s = '';
+            s += "Javascript error!";
+            s += "\n----------------------------------------\n";
+            s += errorMsg;
+            s += "\nFile : " + url;
+            s += "\nLine : " + lineNumber;
+            alert(s);
+        }
+    </script>
+
+    
+
+
     <link rel="stylesheet" type="text/css" href="libs/normalize.css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
@@ -34,10 +50,8 @@
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
-									<h5 class="modal-title">Award and Achievements</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
+									<h5 class="modal-title modal__title">Award and Achievements</h5>
+									<span class="close modal__close">X</span>
 								</div>
 								<div class="modal-body">
 									<form>

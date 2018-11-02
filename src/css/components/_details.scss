@@ -31,6 +31,19 @@
 		padding: 20px;
 		margin-top: 17px;
 		margin-bottom: 20px;
+
+		&::placeholder {
+			color: #099999;
+            opacity: 1; /* Firefox */
+        }
+
+		&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			color: #099999;
+		}
+
+		&::-ms-input-placeholder { /* Microsoft Edge */
+			color: #099999;
+		}
 	}
 
 	&__link {
@@ -59,16 +72,16 @@
 	}
 
 	&__attach {
-		border: 1px dashed #dbbe53;
+		border: 2px dashed #dbbe53;
 		padding: 10px 20px;
 		@include font($suir, 1.6rem, #545454);
 		display: block;
 		width: 95%;
 		height: 75px;
 		text-align: center;
-		padding: 27px 0 0 0;
 		cursor:pointer;
 		background-color: #ebf4f6;
+		margin-top: 25px;
 	}
 
 	&__upload {

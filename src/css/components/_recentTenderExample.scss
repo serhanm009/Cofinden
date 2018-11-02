@@ -1,0 +1,77 @@
+.recentTenderExample {
+	display: flex;
+	padding: 20px 20px 0 0;
+
+
+	&__box {
+		width: 90%;
+		border: 1px solid #b5bebe;
+		margin-bottom: 20px;
+	}
+
+
+	&__logo {
+		text-align: center;
+		width: 64%;
+	}
+
+	&__logoTitle{
+		@include font($suir, 1.4rem, #2e2e2e);
+		margin-top: 15px;
+
+	}
+
+	&__mainTitle {
+		@include font($suir, 1.5rem, rgb(28, 27, 27));
+		margin-bottom: 17px;
+		line-height: 1.19;
+	}
+
+	&__mainBudget {
+		@include font($suir, 1.4rem, #1c1b1b);
+	}
+
+	&__mainText {
+		@include font($suir, 1.4rem, #706e6e);
+	}
+
+	&__bottom {
+		border-top: 1px solid #d8dfdf;
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		padding: 10px 20px;
+
+	}
+
+	&__time {
+		display: flex;
+		align-items:center;
+	}
+
+	&__leftDays {
+		@include font($b, 1.3rem, #727272);
+		margin-bottom: 0 !important;
+		margin-left: 4px;
+	}
+
+	&__img {
+		width: 80px;
+		height: 80px;
+	}
+
+	&__timeIcon {
+		margin-right: 11px;
+	}
+
+	&__discover {
+		@include font($suir, 1.4rem, #9987d2);
+		border-bottom: 1px solid #9987d2;
+
+		&:hover {
+			text-decoration: none;
+			color: #9987d2;
+		}
+
+	}
+}

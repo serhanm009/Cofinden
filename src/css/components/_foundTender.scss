@@ -62,10 +62,35 @@
 	&__mainText {
 		@include font($suisl, 1.5rem, #706e6e);
 	}
+	&__activeItem {
+		background-color: #418bc9;
+		color: #fff;
+	}
+
+	&__item {
+		&:hover {
+			background-color: #418bc9;
+			color: #fff;
+		}
+	}
 
 	&__dropdown-menu {
 		top: 3px !important;
 		left: -145px !important;
+	}
+
+	&__link {
+		@include font($suir, 1.4rem, #9987d2);
+		&:hover {
+			text-decoration: none;
+			color: #9987d2;
+		}
+
+	}
+
+	&__dropdown-item {
+		@include font($suir, 1.5rem, #099999);
+
 	}
 
 	&__bottom {
@@ -80,6 +105,7 @@
 	&__time {
 		display: flex;
 		align-items:center;
+		color: #727272;
 	}
 
 	&__leftDays {

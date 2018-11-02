@@ -1,0 +1,12 @@
+.mainBoard{
+    display: flex;
+
+    &__left {
+        width: 74.2%;
+        margin-right: 3%;
+    }
+
+    &__right {
+        width: 24.9%;
+    }
+}

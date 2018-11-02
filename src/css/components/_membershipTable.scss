@@ -1,0 +1,118 @@
+.membershipTable {
+	background-color: #F4F5F7;
+
+	padding: 50px 40px 97px 40px;
+
+
+	&__table tr, th, td {
+		border: 1px solid #e7dbdb;
+	}
+
+	&__th1 {
+		background-color: #32bef1; 
+		@include font($suil, 2.3rem, #010101);
+		padding: 75px 230px 80px 60px;
+
+
+	}
+	&__th2 {
+		background-color: #32bef1; 
+		@include font($suil, 2.3rem, #010101);
+		padding: 75px 90px 80px 90px;
+
+
+	}
+
+	&__th3 {
+		background-color: #dbbe53; 
+		@include font($suir, 2.6rem, #1f1f1f);
+		padding: 75px 120px 80px 120px;
+		padding-top: 20px;
+
+	}
+
+	&__td {
+		@include font($suil, 1.6rem, #080808);
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 50px;
+
+	}
+
+	&__td2 {
+		text-align: center;
+		@include font($suir, 1.5rem, #555555);
+	}
+
+	&__td3 {
+		text-align: center;
+		@include font($suir, 1.5rem, #555555);
+	}
+
+	&__span {
+		padding-top: 150px;
+	}
+
+	&__th1None {
+		visibility: hidden;
+	}
+
+	&__th2None {
+		visibility: hidden;
+	}
+
+	&__th4None {
+		visibility: hidden;
+	}
+
+	&__th4 {
+		border-bottom: 1px solid #fff !important;
+		background-color: #fff;
+		
+	}
+
+
+	&__th3Top{
+		background-color: #dbbe53;
+		border-bottom: 1px solid #dbbe53 !important;
+		padding-top: 40px;
+	}
+
+	&__title {
+		@include font($suir, 1.9rem, #7a83c5);
+
+	}
+	&__text {
+		@include font($suisl, 1.3rem, #474747);
+
+	}
+
+	&__link {
+		@include font($suir, 1.6rem, #000);
+
+		padding: 10px 22px;
+		display: inline-block;
+		border-radius: 3px;
+		background-color: rgb(219, 190, 83);
+
+
+		&:hover {
+			color: #000;
+			background-color: #b3bd00;
+			text-decoration: none;
+		}
+
+
+	}
+
+	&__lastColumn {
+		padding-left: 17px;
+		padding-right: 12px;
+		text-align: center;
+		padding-bottom: 198px;
+		background-color: #fff;
+	}
+
+	
+
+}

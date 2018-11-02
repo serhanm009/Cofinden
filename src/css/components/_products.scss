@@ -1,6 +1,13 @@
 .products {
 	margin-top: 35px;
 	display: flex;
+
+	&__image {
+		width: 121px;
+		height: 111px;
+		border: 1px solid #b7b7b7;
+		border-radius: 3px;
+	}
 	
 	&__name {
 		@include font($suir, 1.6rem, #fafafa);
@@ -29,6 +36,8 @@
 		// height: 100%;
 		background-color: rgba(0, 0, 0, 0.651);
 		text-align: center;
+		border-radius: 3px;
+
 	}
 
 	&__content {

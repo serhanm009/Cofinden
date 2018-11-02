@@ -543,9 +543,19 @@ $("*").click(function (event) {
   
 });
 
-$('.alertBox__close').click(function(event) {
+ $('.alertBox__close').click(function(event) {
   $('.alertBox').hide('400');
 });
+
+
+ $('.messaging__iconTop2').click(function(){
+  $('.messaging__content').slideUp('400');
+});
+
+ $('.messaging__link').click(function(){
+  $('.messaging__content').slideToggle('400');
+});
+
 
 });
 

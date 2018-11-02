@@ -1,0 +1,60 @@
+.membership {
+	background-image: url(../../img/membership.png);
+	background-size: cover;
+	background-position: center;
+	height: 442px;
+	position: relative;
+
+	&__img {
+		height: 442px;
+		width: 100%;
+	}
+
+	&__content {
+		position: absolute;
+		right: 60px;
+		top: 80px;
+		color: #fff;
+		width: 380px;
+		text-align: center;
+	}
+
+	&__text1 {
+		@include font($suisl, 2.6rem, #fff);
+		text-transform: uppercase;
+		
+	}
+	&__text2 {
+		@include font($suisl, 1.8rem, #fff);
+		
+	}
+	&__text3 {
+		@include font($suir, 1.9rem, #fff);
+
+	}
+
+	&__link {
+		@include font($suir, 2rem, #fff);
+
+		border-width: 1px;
+		border-color: rgb(255, 255, 255);
+		border-style: solid;
+		border-radius: 3px;
+		background-color: rgb(201, 166, 73);
+		box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.61);
+
+		padding: 14px 79px;
+		display: inline-block;
+		margin-top: 28px;
+
+
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+			background-color: rgb(201, 166, 0);
+		}
+
+
+	}
+
+}

@@ -27,19 +27,36 @@
 		margin-bottom: 20px;
 		@include font($suisl, 1.6rem, #099999);
 		padding: 0px 10px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgb(153, 153, 153);
+		border-radius: 2px;
+
+
+
 
 		&--small {
-			width: 49%;
+			width: 58%;
 		}
 
 	}
 
 	&__select {
 		@include font($suisl, 1.6rem, #099999);
-		width: 49%;
+		width: 40%;
 		height: 45px;
 		margin-bottom: 20px;
 		padding: 0 10px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgb(153, 153, 153);
+		border-radius: 2px;
+
+		&--2 {
+			width: 58%;
+		}
+
+
 	}
 
 	&__signIn {
@@ -51,14 +68,13 @@
 		border: 1px solid #3abff0;
 		border-color: transparent;
 
-		// width: 35.7%;
-
+		width: 100%;
+		cursor: pointer;
 		&:hover {
 			text-decoration: none;
-			color: #3abff0;
+			color: #fff;
 
-			border: 1px solid #3abff0;
-			background-color: #fff;
+			background-color: rgb(55, 177, 226);
 		}
 
 	}

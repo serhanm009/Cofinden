@@ -1,0 +1,60 @@
+.submitOffer {
+    margin-top: 25px;
+    border-width: 1px;
+    border-color: rgb(181, 190, 190);
+    border-style: solid;
+    border-radius: 2px;
+    background-color: rgb(246, 250, 251);
+    height: 68px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    button {
+        outline: none;
+    }
+
+    &__left {
+        padding-top: 8px;
+        float:left;
+        p {
+            font-size: 10pt;
+            font-family: "Segoe UI";
+            color: rgb(100, 100, 100);
+        }
+    }
+
+    &__right {
+        float: right;
+    }
+
+    &__submit {
+        border-radius: 3px;
+        background-color: rgb(219, 190, 83);
+        width: 143px;
+        height: 33px;
+        font-family: "Segoe UI";
+        font-weight: 600;
+        font-size: 10pt;
+        color: white;
+    }
+
+    &__cancel {
+        background-color: transparent;
+        border-color: transparent;
+        width: 100px;
+        height: 33px;
+        font-family: "Segoe UI";
+        font-weight: 600;
+        font-size: 10pt;
+    }
+}
+
+
+  .Rounded_Rectangle_1662_copy_2 {
+    border-radius: 3px;
+    background-color: rgb(219, 190, 83);
+    width: 143px;
+    height: 33px;
+  }
+  

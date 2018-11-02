@@ -1,0 +1,306 @@
+//= template/head.html
+//= template/header.html
+<div class="userProfile">
+    <div class="myContainer">
+
+        <!-- notıfıcatıons -->
+        <div class="notifications__null">
+            
+        </div>
+        <!-- /notifications -->
+
+        <!-- Content -->
+        <div class="userProfile__content">
+
+            <!-- leftSide -->
+            <div class="leftSide">
+                <div class="leftSide__top"></div>
+                <div class="leftSide__content">
+                    <div class="leftSide__logo">
+                        <img src="img/fedex.png" class="img-fluid leftSide__img" alt="">
+                    </div>
+
+                    <h2 class="leftSide__title">Fedex Corporation Limited</h2>
+                    <h2 class="leftSide__subtitle">Logistics</h2>
+
+                    <ul class="leftSide__firstList">
+                        <li class="leftSide__firstListItem">Rating <span class="leftSide__firstListValue">7.9</span></li>
+                        <div class="leftSide__firstListLine"></div>
+                        <li class="leftSide__firstListItem">Status <span class="leftSide__firstListValue">Pre</span></li>
+                        <div class="leftSide__firstListLine"></div>
+                        <li class="leftSide__firstListItem">Profile <span class="leftSide__firstListValue">100%</span></li>
+                    </ul>
+
+                    <ul class="leftSide__secondList">
+                        <a href="#" title="" class="leftSide__secondLink">
+                            <li class="leftSide__secondListItem">
+                                <div class="leftSide__secondListItemLeft">
+                                    <span><img src="img/mainBoardIcon.png" alt=""></span>
+                                    <span class="leftSide__secondListName">&nbsp;Main Board</span>
+                                </div>
+                                <span class="leftSide__secondListCount">3</span>
+                            </li>
+                        </a>
+                        <a href="#" title="" class="leftSide__secondLink">
+                            <li class="leftSide__secondListItem">
+                                <div class="leftSide__secondListItemLeft">
+                                    <span><img src="img/messageIcon.png" alt=""></span>
+                                    <span class="leftSide__secondListName">Messages</span>
+                                </div>
+                                <span class="leftSide__secondListCount">23</span>
+                            </li>
+                        </a>
+                        <a href="#" title="" class="leftSide__secondLink">
+                            <li class="leftSide__secondListItem">
+                                <div class="leftSide__secondListItemLeft">
+                                    <span><img src="img/handshaking.png" alt=""></span>
+                                    <span class="leftSide__secondListName">Partners</span>
+                                </div>
+                                <span class="leftSide__secondListCount">1</span>
+                            </li>
+                        </a>
+                        <a href="#" title="" class="leftSide__secondLink">
+                            <li class="leftSide__secondListItem">
+                                <div class="leftSide__secondListItemLeft">
+                                    <span><img src="img/newsIcon.png" alt=""></span>
+                                    <span class="leftSide__secondListName">News</span>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="leftSide__bottom">
+                    <p class="leftSide__bottomSentence">Get access to all tools and possibilities</p>
+                    <a href="#" title="" class="leftSide__bottomLink"> <img src="img/PremiumIcon.png" alt="">Try Premium Membership</a>
+                </div>
+            </div>
+            <!-- /leftSide -->
+
+            <!-- rightSide -->
+            <div class="rightSide">
+
+                <div class="mainBoard">
+                    <!-- Left of the right -->
+                    <div class="mainBoard__left">
+                        <div class="postBox">
+                            <p class="postBox__header">Post an offer using video or image features</p>
+                            <div class="postBox__hr"></div>
+                            <div class="postBox__bottomSide">
+                                <div class="postBox__offerDiv"><p class="postBox__offerText">Post an offer:</p></div>
+                                <div class="postBox__offerImg postBox__ellipse"><p class="postBox__offerTypeText"><i class="far fa-image"></i>With Image</p></div>
+                                <div class="postBox__offerVid postBox__ellipse"><p class="postBox__offerTypeText"><i class="far fa-play-circle"></i>With Video</p></div>
+                                <div class="postBox__offerTxt postBox__ellipse"><p class="postBox__offerTypeText"><i class="far fa-file-alt"></i>Text Only</p></div>
+
+                                <div class="postBox__offerAmount">
+                                    <p class="postBox__offerNumber">23</p>
+                                    <p class="postBox__offerNewWord">new offer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="offerCreation">
+                            <div class="offerCreation__title">
+                                <p class="offerCreation__titleText">Additional Details</p>
+                            </div>
+                            <p class="offerCreation__upperText">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut  labore et dolore magna
+                            </p>
+                            <div class="offerCreation__offerType">
+                                <div class="form-group">
+                                    <select class="form-control" id="sel1">
+                                        <option value="" selected disabled hidden>Offer Type</option>
+                                        <option>Product</option>
+                                        <option>Service</option>
+                                        <option>Discount</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="offerCreation__offerTitle">
+                                <p class="offerCreation__labelForTitle">Offer Title:</p>
+                                <input class="offerCreation__inputForTitle" type="text">
+                                <p class="offerCreation__labelForMakeAnOffer">Make an offer:</p>
+                                <textarea class="offerCreation__inputForMakeAnOffer" cols="100" type="text"
+                                    placeholder="Add your offer to increase chance to win or leave it empty"></textarea>
+                            </div>
+                            <p class="offerCreation__labelForAttachments">Attachments</p>
+                            <div class="offerCreation__attachments">
+                                <div class="offerCreation__attachment"><p class="offerCreation__attachmentName">Brendon.png</p>
+                                    <i class="far fa-trash-alt"></i>
+                                </div>
+                            </div>
+                            <div class="offerCreation__offerFilesUpload">
+                                <button class="offerCreation__button"><span>upload</span> offer files</button>
+                            </div>
+                            <p class="offerCreation__helpText">
+                                You may attach up to 10 files up the size of  20 MB  each. Insert portfolios or other documents to support your application. Your profile is automatically forwarded to the client with your proposal.
+                            </p>
+                        </div>
+
+                        <div class="submitOffer">
+                            <div class="submitOffer__left">
+                                <p>If you are ready to proceed, submit your offer</p>
+                            </div>
+                            <div class="submitOffer__right">
+                                <button class="submitOffer__cancel">Cancel</button>
+                                <button class="submitOffer__submit">Submit Offer</button>
+                            </div>
+                        </div>
+
+                        <div class="dropDownRuler">
+                            <div class="dropDownRuler__rulerSide">
+                                <div class="dropDownRuler__ruler"></div>
+                            </div>
+                            <div class="dropDownRuler__ddSide">
+                                <div class="dropdown dropDownRuler__dropDown ">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <p>Sort By</p> <i class="fas fa-sort-down"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentBox">
+                            <div class="contentBox__imageHolder">
+                                <img src="img/mainboard_img.png" alt="main image">
+                            </div>
+                            <div class="contentBox__mainContentHolder">
+                                <div class="contentBox__logoHolder">
+                                    <img src="img/adidas__logo.png" alt="">
+                                </div>
+                                <div class="contentBox__textHolder">
+                                    <p class="contentBox__title">Developing Corporate Website</p>
+                                    <p class="contentBox__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            . . .
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">Report offer</button>
+                                            <button class="dropdown-item" type="button">See all offers</button>
+                                            <button class="dropdown-item" type="button">Share this offer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="contentBox__deadlineHolder">
+                                    <p class="contentBox__timeLeftText"><i class="far fa-clock"></i>Ends at:20 September 2018</p>
+                                    <a class="contentBox__link" href="#">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentBox" style="margin-top: 25px;">
+                            <div class="contentBox__mainContentHolder">
+                                <div class="contentBox__logoHolder">
+                                    <img src="img/adidas__logo.png" alt="">
+                                </div>
+                                <div class="contentBox__textHolder">
+                                    <p class="contentBox__title">Developing Corporate Website</p>
+                                    <p class="contentBox__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            . . .
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">Report offer</button>
+                                            <button class="dropdown-item" type="button">See all offers</button>
+                                            <button class="dropdown-item" type="button">Share this offer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="contentBox__deadlineHolder">
+                                    <p class="contentBox__timeLeftText"><i class="far fa-clock"></i>Ends at:20 September 2018</p>
+                                    <a class="contentBox__link" href="#">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentBox" style="margin-top: 25px;">
+                            <div class="contentBox__videoHolder">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/m_ku14b63Tg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                            <div class="contentBox__mainContentHolder">
+                                <div class="contentBox__logoHolder">
+                                    <img src="img/fedex.png" alt="">
+                                </div>
+                                <div class="contentBox__textHolder">
+                                    <p class="contentBox__title">Developing Corporate Website</p>
+                                    <p class="contentBox__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            . . .
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">Report offer</button>
+                                            <button class="dropdown-item" type="button">See all offers</button>
+                                            <button class="dropdown-item" type="button">Share this offer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="contentBox__deadlineHolder">
+                                    <p class="contentBox__timeLeftText"><i class="far fa-clock"></i>Ends at:20 September 2018</p>
+                                    <a class="contentBox__link" href="#">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Right of the right -->
+
+                    <div class="mainBoard__right">
+                        <div class="relatedLink">
+                            <div class="relatedLink__videoHolder">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m_ku14b63Tg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                            <div class="relatedLink__description">
+                                <p>2104 ADNDRC Conference invitigall companies</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /rightSide -->
+
+        </div>
+        <!-- /Content -->
+
+        <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+    </div>
+<!-- Sort By arrow to the right /// Need to remove dropdowns outline /// 
+    /// Post offer one icon missing (last one)!!! -->
+</div>
+</div>
+
+//= template/footer.html

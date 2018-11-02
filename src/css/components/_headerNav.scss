@@ -11,6 +11,10 @@
 		margin-left: 20px;
 		width: 94px;
 
+		&--last {
+			height: 39px;
+		}
+
 	}
 
 	&__link{
@@ -43,16 +47,71 @@
 		height: 10px;
 		background-color: #9b9b9b;
 		margin-right: 4px;
-		margin-bottom: 4px;
+		margin-bottom: 3px;
+		border-radius: 2px;
 
 		&--last{
 			background-color: transparent;
 			border: 1px solid #32bef1;
+		}
+
+		&--bottom {
+			margin-bottom: 0;
 		}
 	}
 
 	&__services{
 		margin: 0 auto;
 	}
+
+	&__left {
+		width: 23%;
+	}
+
+	&__right {
+		width: 77%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__input {
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgb(182, 182, 182);
+		border-radius: 4px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: inset 0px 2px 3px 0px rgba(58, 157, 195, 0.05);
+		@include font($suil, 16px, #696773);
+		padding: 12px 50px 11px 18px;
+		width: 385px;
+
+		&:focus {
+			outline: none;
+		}
+
+	}
+
+	&__form {
+		position: relative;
+	}
+
+	&__btn {
+		transform: rotate(93deg);
+		border: none;
+		background-color: transparent;
+		font-size: 20px;
+		position: absolute;
+		top: 7px;
+		right: 15px;
+		color: #adadad;
+		cursor: pointer;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+
 
 }

@@ -11,6 +11,22 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- <meta name="viewport" content="initial-scale=1"> -->
+    
+    <script type="text/javascript">
+        window.onerror = function (errorMsg, url, lineNumber) {
+            var s = '';
+            s += "Javascript error!";
+            s += "\n----------------------------------------\n";
+            s += errorMsg;
+            s += "\nFile : " + url;
+            s += "\nLine : " + lineNumber;
+            alert(s);
+        }
+    </script>
+
+    
+
+
     <link rel="stylesheet" type="text/css" href="libs/normalize.css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">

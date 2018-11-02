@@ -1,0 +1,97 @@
+.settingsTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 70px 145px 70px 164px;
+	background-color: #f3f7f8;
+
+	&__left {
+		display: flex;
+		align-items: center;
+	}
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__logo {
+		border-width: 1px;
+		border-color: rgb(210, 194, 194);
+		border-style: solid;
+		border-radius: 5px;
+		background-color: rgb(255, 255, 255);
+		width: 115px;
+		height: 115px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 18px;
+		margin-right: 20px;
+	}
+
+	&__title {
+		@include font($suir, 2.1rem, #0d0d0d);
+
+	}
+	&__rating {
+		@include font($suir, 1.2rem, #000);
+
+	}
+	&__num {
+		@include font($suisb, 1.4rem, #000);
+		margin-right: 18px;
+
+	}
+	&__rat {
+		@include font($suisb, 1rem, #5a5a5a);
+		text-transform: uppercase;
+		
+
+	}
+	&__number {
+		@include font($suisb, 1.7rem, #3d3d3d);
+		
+
+	}
+	&__out {
+		@include font($suisb, 1rem, #5a5a5a);
+		
+	}
+
+	&__connection {
+		@include font($suisl, 1.5rem, #000);
+		
+	}
+
+	&__subtitle {
+		@include font($suir, 1.5rem, #3d3d3d);
+		text-transform: uppercase;
+		margin-bottom: 30px;
+
+	}
+
+	&__pre {
+		width: 25px;
+		height: 21px;
+	}
+
+	&__ratingBox {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		border-width: 1px;
+		border-color: rgb(155, 155, 155);
+		border-style: solid;
+		border-radius: 6px;
+		width: 65px;
+		height: 68px;
+		margin-bottom: 20px;
+
+	}
+
+
+
+}

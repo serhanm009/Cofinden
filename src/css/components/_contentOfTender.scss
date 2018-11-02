@@ -60,6 +60,14 @@
 	&__mainRightLink {
 		@include font($suisl, 1.4rem, #000);
 		margin-left: 20px;
+		background-color: #eef0f1;
+		padding: 12px 19px;
+		border-radius: 56px;
+		display: inline-block;
+
+		&--1 {
+			margin-left: 0;
+		}
 		&:hover {
 			color: #000;
 			text-decoration: none;

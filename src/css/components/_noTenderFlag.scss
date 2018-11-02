@@ -1,7 +1,7 @@
 .noTenderFlag {
 	text-align: center;
 	padding: 90px 0 0 0;
-
+	margin-right: 227px;
 	&__title {
 		@include font($suib, 2.7rem, #626262);
 		margin:35px 0 25px 0;
@@ -9,6 +9,11 @@
 
 	&__text {
 		@include font($suisl, 2.1rem, #099999);
-		padding: 0 266px;
+		padding: 0 166px;
+	}
+
+	&__img {
+		width: 65px;
+		height: 60px;
 	}
 }

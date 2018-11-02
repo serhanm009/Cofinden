@@ -1,0 +1,113 @@
+//= template/head.html
+<!-- modal add button -->
+<button type="button" class="btn btn-primary addBtn offerContent">Content of offers</button>
+
+<div class="modal fade offerContent__modal" id="offerContentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content offerContent__modal-content">
+			<div class="offerContent__header">
+				<h2 class="offerContent__title">Service</h2>
+				<a href="#" title="" class="offerContent__close">X</a>
+			</div>
+			<div class="offerContent__main">
+				<div class="offerContent__mainLeft">
+					<img src="img/adidas__logo.png" class="img-fluid offerContent__logo" alt="">
+					<h2 class="offerContent__title1">Adidas Corporation Limited</h2>
+					<h2 class="offerContent__title2">Logistics</h2>
+					<a href="#" title="" class="emptyBtn">Check Profile</a>
+				</div>
+				<div class="offerContent__mainRight">
+					<div class="offerContent__mainRightTop">
+						<h2 class="offerContent__title3"> <img src="img/applyIcon__3.png" class="img-fluid offerContent__img" alt=""><span class="offerContent__valid">Valid till:</span> 20 September 2018</h2>
+						<div class="offerContent__interested">
+							<span class="offerContent__num">123+</span>
+							<p class="offerContent__title4">Companies interested with <br> this offer </p>
+						</div>
+					</div>
+
+					<div >
+						<img src="img/offer.png" class="img-fluid offerContent__imgMain" alt="">
+						
+					</div>
+
+					<h2 class="offerContent__title5">Developing Corporate Websites</h2>
+					<p class="offerContent__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci. </p>
+
+					<h3 class="offerContent__attached">Attached files</h3>
+
+					<a href="#" title="" class="offerContent__link offerContent__link--first">Brendon.png&nbsp;&nbsp;<i class="fa fa-download" aria-hidden="true"></i> </a>
+					<a href="#" title="" class="offerContent__link">Brendon.png&nbsp;&nbsp; <i class="fa fa-download" aria-hidden="true"></i> </a>
+					
+
+
+					
+				</div>
+
+			</div>
+			<div class="offerContent__footer">
+				<h2><i class="fa fa-hourglass-half" aria-hidden="true"></i>&nbsp;&nbsp;<span class="offerContent__days">2 days left</span></h2>
+				<h2><img src="img/offer1.png" alt="">&nbsp;&nbsp;<span class="offerContent__days">Interested Companies 123</span></h2>
+
+				<h2><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;<span class="offerContent__days">Posted Dec 12, 1987</span></h2>
+				
+
+			</div>
+
+			<div class="offerContent__sep">
+				
+			</div>
+
+			<div class="offerContent__sendBox">
+				<h2 class="offerContent__sendBox__title"><a href="#" title="">Show all</a> offers from this company</h2>
+				<div>
+					<a href="#" title="" class="offerContent__sendBox__cancelLink">Cancel</a>
+
+					<a href="#" title="" class="offerContent__sendBox__applyLink">Send Message</a>
+
+				</div>
+			</div>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+
+<!-- /modal add button -->
+
+
+//= template/footer.html
+
+
+<script type="text/javascript">
+	
+	$('.offerContent').click(function(event) {
+		$("#offerContentModal").addClass('show').css({'display':'block', 'background-color': 'rgba(0,0,0, .8)'});
+		$("body").css('overflow','unset');
+	});   
+
+	$('.offerContent__sendBox__cancelLink').click(function(event) {
+		$("#offerContentModal").addClass('fade').css('display','none');
+		// $("body").css('overflow','unset');
+
+	}); 
+
+	$('.offerContent__close').click(function(event) {
+		$("#offerContentModal").addClass('fade').css('display','none');
+		// $("body").css('overflow','unset');
+
+	}); 
+
+
+	$("*").click(function (event) {
+		if ($(event.target).is("#offerContentModal")) {
+			$("#offerContentModal").addClass('fade').css('display','none').removeClass('show');
+			// $("body").css('overflow','unset');
+			return false;
+		}
+
+	});  
+</script>

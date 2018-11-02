@@ -5,14 +5,20 @@
 	<div class="myContainer">
 		<!-- leftSide -->
 		<div class="noTender__top">
-			<h2>Lorem ipsum dolor</h2>
+			<div class="noTender__topLeft">
+				<h2 class="noTender__title">Lorem ipsum dolor</h2>
+				
+			</div>
+			<div class="noTender__topRight">
+				<ul class="noTender__topList">
+					<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
+					<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
+					<li class="noTender__topListItem noTender__topListItem--last"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
+					<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
+				</ul>
+			</div>
 
-			<ul class="noTender__topList">
-				<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
-				<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
-			</ul>
+			
 		</div>
 
 		<div class="page">
@@ -81,12 +87,12 @@
 			<!-- /leftSide -->
 			<div class="rightSide">
 				<div class="postATenderBox">
-					<div class="searchBox">
-						<input type="text" name="" class="searchBox__input" placeholder="Add keywords to find tenders...">
+					<div class="searchBox postATenderBox__searchBox">
+						<input type="text" name="" class="searchBox__input postATenderBox__input" placeholder="Add keywords to find tenders...">
 						<button class="searchBox__btn">Search</button>
 					</div>
 
-					<a href="#" class="postATender" title=""><img src="img/notender__icon1.png" class="noTender__icon" alt=""> Post a tender</a>
+					<a href="#" class="postATender" title=""><img src="img/notender__icon1_white.png" class="noTender__icon" alt=""> Post a tender</a>
 				</div>
 
 				<div class="contentOfTender">
@@ -119,7 +125,7 @@
 							<div class="contentOfTender__mainRightTop">
 								<div class="property">
 									<div class="property__img">
-										<img src="img/applyIcon__1.png" alt="">
+										<img src="img/applyIcon__1.png" class="img-fluid" alt="">
 									</div>
 									<div class="property__content">
 										<div class="property__title">5000$</div>
@@ -129,7 +135,7 @@
 
 								<div class="property">
 									<div class="property__img">
-										<img src="img/applyIcon__2.png" alt="">
+										<img src="img/applyIcon__2.png" class="img-fluid" alt="">
 									</div>
 									<div class="property__content">
 										<div class="property__title">Long time</div>
@@ -139,7 +145,7 @@
 
 								<div class="property">
 									<div class="property__img">
-										<img src="img/applyIcon__3.png" alt="">
+										<img src="img/applyIcon__3.png" class="img-fluid" alt="">
 									</div>
 									<div class="property__content">
 										<div class="property__title">Aug 12, 1987</div>
@@ -161,9 +167,9 @@
 							<h2 class="contentOfTender__mainRightTitle contentOfTender__mainRightTitle--2">Attached Files:</h2>
 
 
-							<a href="#" class="contentOfTender__mainRightLink">Brendon.png <i class="fa fa-download" aria-hidden="true"></i></a>
+							<a href="#" class="contentOfTender__mainRightLink contentOfTender__mainRightLink--1">Brendon.png &nbsp; &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
 
-							<a href="#" class="contentOfTender__mainRightLink">Brendon.png <i class="fa fa-download" aria-hidden="true"></i></a>
+							<a href="#" class="contentOfTender__mainRightLink">Brendon.png &nbsp; &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
 						</div>
 
 
@@ -171,7 +177,7 @@
 
 					<div class="contentOfTender__bottom">
 						<h2 ><i class="fa fa-hourglass-half" aria-hidden="true"></i>&nbsp;&nbsp;<span class="contentOfTender__bottomTitle">2 days left</span></h2>
-						<h2 ><img src="img/notender__icon3.png" alt="">&nbsp;&nbsp;<span class="contentOfTender__bottomTitle">Already applied companies <span>123</span></span> </h2>
+						<h2 ><img src="img/notender__icon3.png" class="img-fluid noTender__icon" alt="">&nbsp;&nbsp;<span class="contentOfTender__bottomTitle">Already applied companies <span>123</span></span> </h2>
 						<h2><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;<span class="contentOfTender__bottomTitle">Posted Dec 12, 1987</span></h2>
 					</div>
 				</div>
@@ -179,13 +185,13 @@
 
 			<div class="applyBox">
 				<div>
-					<h2 class="applyBox__showLink"><a href="#" title="">Show all</a> Tenders from this company</h2>
-					<h2 class="applyBox__termsLink">By applying to tender you accept Cofinden <a href="#" title="">Terms and conditions</a></h2>
+					<h2 class="applyBox__showLink"><a href="#" class="applyBox__showLink1" title="">Show all</a> Tenders from this company</h2>
+					<h2 class="applyBox__termsLink">By applying to tender you accept Cofinden <a href="#" class="applyBox__showLink2" title="">Terms and conditions</a></h2>
 				</div>
 
 				<div>
 					<a href="#" title="" class="applyBox__cancelLink">Cancel</a>
-					<a href="#" title="" class="applyBox__applyLink">Apply</a>
+					<a href="#" title="" class=" applyBox__applyLink--1 mainBtn">Apply</a>
 				</div>
 			</div>
 		</div>

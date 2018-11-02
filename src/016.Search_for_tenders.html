@@ -5,14 +5,20 @@
 	<div class="myContainer">
 		<!-- leftSide -->
 		<div class="noTender__top">
-			<h2>Lorem ipsum dolor</h2>
+			<div class="noTender__topLeft">
+				<h2 class="noTender__title">Lorem ipsum dolor</h2>
+				
+			</div>
+			<div class="noTender__topRight">
+				<ul class="noTender__topList">
+					<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
+					<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
+					<li class="noTender__topListItem noTender__topListItem--last"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
+					<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
+				</ul>
+			</div>
 
-			<ul class="noTender__topList">
-				<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
-				<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
-			</ul>
+			
 		</div>
 
 		<div class="page">
@@ -81,12 +87,12 @@
 			<!-- /leftSide -->
 			<div class="rightSide">
 				<div class="postATenderBox">
-					<div class="searchBox">
-						<input type="text" name="" class="searchBox__input" placeholder="Add keywords to find tenders...">
+					<div class="searchBox postATenderBox__searchBox">
+						<input type="text" name="" class="searchBox__input postATenderBox__input" placeholder="Add keywords to find tenders...">
 						<button class="searchBox__btn">Search</button>
 					</div>
 
-					<a href="#" class="postATender" title=""><img src="img/notender__icon1.png" class="noTender__icon" alt=""> Post a tender</a>
+					<a href="#" class="postATender" title=""><img src="img/notender__icon1_white.png" class="noTender__icon" alt=""> Post a tender</a>
 				</div>
 
 				<div class="advancedSearch">
@@ -111,7 +117,7 @@
 								<option>1</option>
 								<option>2</option>
 							</select>					
-							<select class="advancedSearch__select">
+							<select class="advancedSearch__select advancedSearch__select--last">
 								<option hidden>Rating</option>
 								<option>1</option>
 								<option>2</option>
@@ -119,12 +125,12 @@
 						</form>
 
 						<div class="dropdown">
-							<button class="btn btn-secondary dropdown-toggle advancedSearch__dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Sort by  &nbsp;&nbsp;|&nbsp;&nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i>
+							<button class="btn  dropdown-toggle advancedSearch__dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Sort by  &nbsp;&nbsp;|&nbsp;&nbsp; <i class="fa fa-angle-down advancedSearch__angleDown" aria-hidden="true"></i>
 							</button>
 							<div class="dropdown-menu advancedSearch__dropdown-menu" aria-labelledby="dropdownMenuButton">
-								<a class="dropdown-item" href="#">New Posted</a>
-								<a class="dropdown-item" href="#">Top Tenders</a>
+								<a class="dropdown-item advancedSearch__dropdown-item" href="#">New Posted</a>
+								<a class="dropdown-item advancedSearch__dropdown-item" href="#">Top Tenders</a>
 							</div>
 						</div>
 					</div>
@@ -158,11 +164,11 @@
 										</div>
 									</button>
 									<div class="dropdown-menu foundTender__dropdown-menu" aria-labelledby="dropdownMenuButton">
-										<a class="dropdown-item" href="#">Apply to Tender</a>
-										<a class="dropdown-item" href="#">Check Profile</a>
-										<a class="dropdown-item" href="#">Report Tender</a>
-										<a class="dropdown-item" href="#">Notify me</a>
-										<a class="dropdown-item" href="#">Share Tender</a>
+										<a class="dropdown-item foundTender__dropdown-item" href="#">Apply to Tender</a>
+										<a class="dropdown-item foundTender__dropdown-item" href="#">Check Profile</a>
+										<a class="dropdown-item foundTender__dropdown-item" href="#">Report Tender</a>
+										<a class="dropdown-item foundTender__dropdown-item" href="#">Notify me</a>
+										<a class="dropdown-item foundTender__dropdown-item" href="#">Share Tender</a>
 									</div>
 								</div>
 							</div>
@@ -170,10 +176,10 @@
 
 						<div class="foundTender__bottom">
 							<div class="foundTender__time">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								<i class="fa fa-clock-o  fa-2x" aria-hidden="true"></i> &nbsp;&nbsp;
 								<h2 class="foundTender__leftDays">2 days left</h2> 
 							</div>
-							<a href="#" title="">Discover</a>	
+							<a href="#" title="" class="foundTender__link">Discover</a>	
 						</div>
 
 					</div>
@@ -212,11 +218,11 @@
 									</div>
 								</button>
 								<div class="dropdown-menu foundTender__dropdown-menu" aria-labelledby="dropdownMenuButton">
-									<a class="dropdown-item" href="#">Apply to Tender</a>
-									<a class="dropdown-item" href="#">Check Profile</a>
-									<a class="dropdown-item" href="#">Report Tender</a>
-									<a class="dropdown-item" href="#">Notify me</a>
-									<a class="dropdown-item" href="#">Share Tender</a>
+									<a class="dropdown-item foundTender__dropdown-item" href="#">Apply to Tender</a>
+									<a class="dropdown-item foundTender__dropdown-item" href="#">Check Profile</a>
+									<a class="dropdown-item foundTender__dropdown-item" href="#">Report Tender</a>
+									<a class="dropdown-item foundTender__dropdown-item" href="#">Notify me</a>
+									<a class="dropdown-item foundTender__dropdown-item" href="#">Share Tender</a>
 								</div>
 							</div>
 						</div>
@@ -224,10 +230,10 @@
 
 					<div class="foundTender__bottom">
 						<div class="foundTender__time">
-							<i class="fa fa-clock-o" aria-hidden="true"></i>
+							<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> &nbsp;&nbsp;
 							<h2 class="foundTender__leftDays">2 days left</h2> 
 						</div>
-						<a href="#" title="">Discover</a>	
+						<a href="#" title="" class="foundTender__link">Discover</a>	
 
 					</div>
 				</div>
@@ -237,18 +243,18 @@
 				<nav aria-label="Page navigation example">
 					<ul class="pagination foundTender__pagination">
 						<li class="page-item editIcons__paginationItem">
-							<a class="page-link editIcons__paginationLink" href="#" aria-label="Previous">
+							<a class="page-link editIcons__paginationLink foundTender__item" href="#" aria-label="Previous">
 								<span aria-hidden="true">&laquo;</span>
 								<span class="sr-only">Previous</span>
 							</a>
 						</li>
-						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">1</a></li>
-						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">2</a></li>
-						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">3</a></li>
-						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">4</a></li>
-						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink" href="#">5</a></li>
+						<li class="page-item editIcons__paginationItem "><a class="page-link editIcons__paginationLink foundTender__activeItem foundTender__item " href="#">1</a></li>
+						<li class="page-item editIcons__paginationItem "><a class="page-link editIcons__paginationLink  foundTender__item " href="#">2</a></li>
+						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink  foundTender__item" href="#">3</a></li>
+						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink  foundTender__item" href="#">4</a></li>
+						<li class="page-item editIcons__paginationItem"><a class="page-link editIcons__paginationLink  foundTender__item" href="#">5</a></li>
 						<li class="page-item editIcons__paginationItem">
-							<a class="page-link editIcons__paginationLink" href="#" aria-label="Next">
+							<a class="page-link editIcons__paginationLink  foundTender__item" href="#" aria-label="Next">
 								<span aria-hidden="true">&raquo;</span>
 								<span class="sr-only">Next</span>
 							</a>

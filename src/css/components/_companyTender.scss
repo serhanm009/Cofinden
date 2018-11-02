@@ -4,6 +4,10 @@
 	padding: 20px 2px 20px 2px;
 	margin-top: 14px;
 
+	&__menu {
+		margin-right: 20px;
+	}
+
 	&__left {
 		width: 80%;
 	}	
@@ -36,6 +40,7 @@
 		// margin-left: 157px;
 		background-color: #fff;
 		border:none;
+		cursor: pointer;
 
 		&:hover {
 			background-color: transparent;
@@ -43,6 +48,8 @@
 
 		&:focus {
 			border:none !important;
+			outline: none;
+
 		}
 	}
 
@@ -107,6 +114,7 @@
 		@include font($suil, 1.6rem, #3f3f3f);
 		text-align:left;
 		margin-top: 10px;
+		padding-left: 10px;
 		
 	}
 
@@ -156,6 +164,6 @@
 	background-color: #a7aeb1;
 }
 .pending {
-		@include font($mpr, 1.5rem, #099999);
+	@include font($mpr, 1.5rem, #099999);
 	
 }

@@ -11,6 +11,22 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- <meta name="viewport" content="initial-scale=1"> -->
+    
+    <script type="text/javascript">
+        window.onerror = function (errorMsg, url, lineNumber) {
+            var s = '';
+            s += "Javascript error!";
+            s += "\n----------------------------------------\n";
+            s += errorMsg;
+            s += "\nFile : " + url;
+            s += "\nLine : " + lineNumber;
+            alert(s);
+        }
+    </script>
+
+    
+
+
     <link rel="stylesheet" type="text/css" href="libs/normalize.css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
@@ -29,7 +45,11 @@
 <div class="myContainer">
 	<div class="homeTop">
 		<a href="001.Home_Page_Login.html" title=""><img src="img/logo.png" class="img-fluid homeTop__logo" alt=""></a>
-		<a href="#" title="" class="homeTop__link">register for free</a>
+		<div>
+			<a href="#" title="" class="homeTop__link homeTop__link--1">about</a>
+			<a href="#" title="" class="homeTop__link homeTop__link--2 emptyBtn">register for free</a>
+		</div>
+		
 	</div>
 	<div class="signIn">
 		<div class="signIn__box">
@@ -46,7 +66,7 @@
 					<a href="#" title="" class="signIn__forget">Forgot your password?</a>
 				</div>
 
-				<a href="#" title="" class="signIn__signIn">SIGN IN</a>
+				<input type="submit" class="signIn__signIn" value="SIGN IN" />
 
 				<div class="signIn__signUp">
 					<h3 class="signIn__compalleMember">Not a compalle member yet?</h3>
@@ -56,6 +76,7 @@
 			</form>
 		</div>
 	</div>
+
 
 
 	<div class="owl-carousel homeCarousel">
@@ -115,6 +136,8 @@
 
 	</div>
 </div>
+
+
 
 
 

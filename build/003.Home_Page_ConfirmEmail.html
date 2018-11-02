@@ -11,6 +11,22 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- <meta name="viewport" content="initial-scale=1"> -->
+    
+    <script type="text/javascript">
+        window.onerror = function (errorMsg, url, lineNumber) {
+            var s = '';
+            s += "Javascript error!";
+            s += "\n----------------------------------------\n";
+            s += errorMsg;
+            s += "\nFile : " + url;
+            s += "\nLine : " + lineNumber;
+            alert(s);
+        }
+    </script>
+
+    
+
+
     <link rel="stylesheet" type="text/css" href="libs/normalize.css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
@@ -30,7 +46,7 @@
 	<div class="homeTop">
 		<a href="001.Home_Page_Login.html" title=""><img src="img/logo.png" class="img-fluid homeTop__logo" alt=""></a>
 		<div class="homeTop__right">
-			<a href="#" title="" class="homeTop__link">register for free</a>
+			<a href="#" title="" class="homeTop__link emptyBtn">register for free</a>
 		</div>
 
 	</div>

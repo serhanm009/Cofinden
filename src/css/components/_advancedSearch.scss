@@ -2,17 +2,46 @@
 	display: block;
 	margin-top: 40px;
 
+	&__selects {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__dropdown-item {
+
+		&:hover {
+			@include font($suisb, 1.5rem, #545454);
+			background-color: transparent;
+		}
+	}
+
 	&__title {
 		@include font($suir, 1.9rem, #4d4c4c);
 		margin-bottom: 27px;
 	}
 
 	&__select {
+
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 2px;
+		background-color: rgb(255, 255, 255);
+
+
+		appearance: none;
+		background: url(../../img/selectIcon.png) 92% / 8% no-repeat;
+
 		height: 40px;
-		width: 180px;
+		width: 169px;
 		@include font($b, 1.6rem, #2e2e2e);
 		padding-left: 10px;
 		margin-right: 10px;
+
+		&--last {
+			background: url(../../img/selectIcon.png) 92% / 15% no-repeat;
+
+		}
 		&:nth-child(5) {
 			width: 100px;
 		}	
@@ -20,6 +49,22 @@
 			width: 100px;
 		}
 
+		&--last {
+			margin-right: 0;
+			box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+
+
+		}
+
+		&--rating {
+			background: url(../../img/selectIcon.png) 92% / 15% no-repeat;
+
+		}
+
+	}
+
+	&__angleDown {
+		font-size: 24px;
 	}
 
 	&__selects {
@@ -32,6 +77,8 @@
 		margin-left: 157px;
 		background-color: #fff;
 		border: 1px solid #c1c1c1;
+		display: flex;
+		align-items: center;
 	}
 
 	&__dropdown-menu {

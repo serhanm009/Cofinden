@@ -1,0 +1,103 @@
+.wonTender {
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid #e8e2e2;
+		padding: 19px 24px 19px 40px;
+	}
+
+	&__date {
+		@include font($suisl, 1.5rem, #099999);	
+
+	}
+
+	&__title {
+		@include font($suisl, 1.6rem, #099999);	
+
+	}
+
+	&__cupTitle {
+
+		border-width: 0.88px;
+		border-color: rgb(204, 215, 215);
+		border-style: solid;
+		border-radius: 3px;
+		margin: 0 auto;
+		width: fit-content;
+		padding-right: 8px;
+		margin-top: 22px;
+
+
+	}
+
+	&__cup {
+		background-color: #32bef1;
+		color: #fff;
+		padding: 4px;
+	}
+
+	&__title2 {
+		margin-bottom: 7px;
+		margin-top: 12px;
+	}
+
+	&__budgetBox {
+		display: flex;
+		flex-direction: column;
+		border-left: 4px solid #32bef1;
+		padding-left: 9px;
+	}
+
+	&__budget {
+		@include font($suir, 1.5rem, #155d5d);
+	}
+
+	&__deadline {
+		@include font($suir, 1.5rem, #155d5d);
+
+	}
+
+	&__text {
+		@include font($suisl, 1.5rem, #155d5d);
+		margin-top: 12px;
+
+	}
+
+	&__link {
+		@include font($suir, 1.5rem, #dbbe53);
+		border-bottom: 1px solid #dbbe53;
+		width: fit-content;
+
+		&:hover {
+			text-decoration: none;
+			color: #dbbe53;
+		}
+
+	}
+
+	&__content {
+		padding-left: 24px;
+		padding-bottom: 28px;
+		border-bottom: 1px solid #e8e2e2;
+		margin-bottom: 37px;
+	}
+
+	&__imgLink {
+		@include font($suisl, 1.2rem, #474343);
+			background-color: rgb(230, 246, 246);
+			border-radius: 12px;
+			padding: 7px 14px;
+
+			&--first {
+				margin-right: 14px;
+				margin-left: 8px;
+			}
+
+		&:hover {
+			text-decoration: none;
+			color: #474343;
+		}
+	}
+
+}

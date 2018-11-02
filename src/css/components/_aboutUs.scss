@@ -19,6 +19,11 @@
 	&__link {
 		@include font($suisl, 1.6rem, #32bef1);
 
+		&:hover {
+			text-decoration: none;
+			color: #32bef1;
+		}
+
 	}
 
 	&__rightTitle{

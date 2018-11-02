@@ -1,0 +1,45 @@
+.delete {
+	&__title{
+		@include font($suir, 18px, #1e1e1e);
+		margin-bottom: 10px;
+
+	}
+
+	&__subtitle{
+		@include font($suisl, 15px, #838383);
+		margin-bottom: 31px;
+
+	}
+
+	&__text1{
+		@include font($suil, 16px, #2f2f2f);
+
+	}
+
+	&__link{
+		@include font($suir, 13px, #2b0772);
+
+	}
+
+	&__text2{
+		margin-top: 37px;
+		@include font($suisl, 15px, #393939);
+	}
+
+	&__btn{
+		@include font($suir, 15px, #161515);
+		margin-top: 39px;
+		border: none;
+		cursor: pointer;
+
+		&:hover {
+			color: #161515;
+
+		}
+
+	}
+
+	&__btnBox {
+		text-align: right;
+	}
+}

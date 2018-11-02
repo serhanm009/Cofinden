@@ -1,0 +1,38 @@
+.dropDownRuler {
+    margin-top: 10px;
+    display: flex;
+    height: 15px;
+
+    p {
+        display: inline-block;
+    }
+
+    i {
+        display: inline-block;
+        margin-left: 7px;
+    }
+
+    &__rulerSide {
+        width: 95%;
+        padding-left: 6px;
+        padding-right: 6px; 
+        margin-top: 13px;
+    }
+
+    &__ruler {
+        border-width: 0.5px;
+        border-color: rgb(150, 152, 153);
+        border-style: solid;
+        opacity: 0.322;
+    }
+    
+    &__dropDown {
+        .btn-secondary {
+            background-color: transparent; 
+            border-color: transparent;
+            font-size: 10pt;
+            font-family: "Segoe UI";
+            color: rgb(60, 60, 60);          
+        }      
+    }
+}

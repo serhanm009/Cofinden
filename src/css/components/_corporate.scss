@@ -1,12 +1,21 @@
 .corporate {
 	background-color: #f3f5f6;
 
+
+
 	&__box {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		padding: 17px 0 15px 0;
+
 	}
 
 	&__text {
-		
+		font-size: 16.667px;
+		font-family: "Segoe UI";
+		color: rgb(60, 60, 60);
+		line-height: 1.5;
+		padding: 0 326px 0 20px;
 	}
 }

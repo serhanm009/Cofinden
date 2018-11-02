@@ -1,0 +1,30 @@
+.headerFourth{
+	background-color: #f3f7f8;
+	display: flex;
+	justify-content: space-between;
+	padding: 23px 0 15px ;
+
+	&__dropdownIcon {
+		background-color: #fff !important;
+	}
+
+	&__logo {
+		width: 169px;
+		height: 48px;
+	}
+
+	&__link {
+		@include font($suir, 19px, #474747);
+
+		&:hover {
+			text-decoration: none;
+			color: #474747;
+		}
+
+	}
+
+	&__right {
+		display: flex;
+		align-items: center;
+	}
+}

@@ -1,6 +1,18 @@
 .modal {
 	z-index: 1000;
 
+	&__close {
+		padding-right: 24px !important;
+		@include font($suisb, 2.5rem, #2a2a2a );
+		cursor: pointer;
+
+	}
+
+	&__title {
+		@include font($suir, 1.9rem, #000 );
+
+	}
+
 	&__character {
 		text-align: right;
 		margin: 0 auto;
@@ -13,6 +25,15 @@
 		background-color: transparent;
 		border: none;
 		@include font($suir, 1.7rem, #000000);
+		margin-right: 20px !important;
+
+		&:hover {
+			background-color: transparent;
+			color: #000;
+			border:none;
+		}
+
+
 
 	}
 
@@ -21,6 +42,20 @@
 		border: none;
 		@include font($suir, 1.7rem, #ffffff);
 		padding: 5px 33px;
+
+		&:hover {
+			background-color: rgb(219, 190, 39);
+			color: #fff;
+		}
+
+		&:focus {
+			outline: none;
+		}
+
+		&:active {
+			background-color: rgb(219, 190, 39);
+			color: #fff;
+		}
 
 	}
 
@@ -115,6 +150,12 @@
 		display: none;
 	}
 
+	&__link {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
 
 }
 
@@ -141,11 +182,15 @@
 	background-color: #32bef1;
 	border-bottom: none;
 	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	align-items:center;
 
 }
 
 .modal-content {
 	padding-bottom: 25px;
+	border:none;
 }
 
 .modal-footer {

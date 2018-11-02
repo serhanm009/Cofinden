@@ -1,0 +1,112 @@
+.messaging {
+	position: fixed;
+	bottom: 0;
+	right: 5px;
+	z-index: 10;
+	width: 327px;
+
+	&__top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 13px 23px;
+		border-bottom: 1px solid #cdcbcb;
+	}
+
+	&__iconTop {
+		margin-right: 0;
+	}
+
+	&__iconTop1 {
+		cursor: pointer;
+		color: #23a4a4;
+		border-width: 1px;
+		border-color: rgb(186, 186, 185);
+		border-style: solid;
+		border-radius: 3px;
+		background-color: rgb(255, 255, 255);
+		margin-right:11px;
+		display: inline-block;
+		padding: 7px 7px 7px 8px;
+
+
+		&:hover {
+			color: #23a4a4;
+			text-decoration: none;
+		}
+	}
+
+	&__iconTop2 {
+		cursor: pointer;
+		color: #23a4a4;
+		border-width: 1px;
+		border-color: rgb(186, 186, 185);
+		border-style: solid;
+		border-radius: 3px;
+		background-color: rgb(255, 255, 255);
+		display: inline-block;
+		padding: 4px 12px 5px 12px;
+		font-size: 17px;
+
+		&:hover {
+			color: #23a4a4;
+			text-decoration: none;
+		}
+	}
+
+	&__head {
+		@include font($suir, 1.8rem, #1a1a1a);	
+
+	}
+
+
+	&__content {
+		border-width: 0.88px;
+		border-color: rgb(186, 186, 185);
+		border-style: solid;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.18);
+
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+	}
+
+
+	&__link {
+		margin-top: 10px;
+		display: flex;
+		width: 327px;	
+		border-width: 0.88px;
+		border-color: rgb(186, 186, 185);
+		border-style: solid;
+		background-color: #fff;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+		padding: 30px 30px 13px 30px;
+
+
+
+		&:hover {
+			text-decoration: none;
+			color: #797878;
+		}
+	}
+
+	&__icon {
+		color: rgb(79, 79, 79);
+
+
+	}
+
+	&__title {
+		@include font($suir, 1.8rem, #797878);	
+		margin-left: 24px;
+		margin-right: 90px;
+
+	}
+
+	&__content2 {
+		padding-left: 21px;
+	}
+
+}

@@ -1,0 +1,40 @@
+.recentTenders {
+	padding: 80px 0 145px 0;
+	&__content {
+		display: flex;
+		align-items: center;
+	}
+
+	&__left {
+		width: 65%;
+	}
+
+	&__right {
+		width: 35%;
+	}
+
+	&__subtitle {
+		@include font($suir, 1.9rem, rgb(102, 102, 102));
+		line-height: 1.2;
+		margin-bottom: 23px;
+	}
+
+	&__text {
+		@include font($suir, 1.6rem, rgb(9, 153, 153));
+		line-height: 1.5;
+		text-align: justify;
+		padding-right: 30px;
+	}
+
+	&__link {
+		margin-top: 25px;
+	}
+
+	&__title {
+		@include font($suir, 2.6rem, #4b4b4b);
+		text-align: center;
+		margin-bottom: 80px;
+
+	}
+
+}

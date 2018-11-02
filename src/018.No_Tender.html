@@ -5,14 +5,20 @@
 	<div class="myContainer">
 		<!-- leftSide -->
 		<div class="noTender__top">
-			<h2>Lorem ipsum dolor</h2>
+			<div class="noTender__topLeft">
+				<h2 class="noTender__title">Lorem ipsum dolor</h2>
+				
+			</div>
+			<div class="noTender__topRight">
+				<ul class="noTender__topList">
+					<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
+					<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
+					<li class="noTender__topListItem noTender__topListItem--last"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
+					<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
+				</ul>
+			</div>
 
-			<ul class="noTender__topList">
-				<li class="noTender__topListItem"><img src="img/notender__icon1.png" class="noTender__icon" alt="">Posted Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon2.png" class="noTender__icon" alt="">Active Tenders: <span>23</span></li>
-				<li class="noTender__topListItem"><img src="img/notender__icon3.png" class="noTender__icon" alt="">Applied Companies: <span>123</span></li>
-				<li class="noTender__topListItem"><a href="#" title="" class="noTender__topLink">Show all</a></li>
-			</ul>
+			
 		</div>
 
 		<div class="page">
@@ -81,8 +87,8 @@
 			<!-- /leftSide -->
 			<div class="rightSide">
 				<div class="postATenderBox">
-					<div class="searchBox">
-						<input type="text" name="" class="searchBox__input" placeholder="Add keywords to find tenders...">
+					<div class="searchBox postATenderBox__searchBox">
+						<input type="text" name="" class="searchBox__input postATenderBox__input" placeholder="Add keywords to find tenders...">
 						<button class="searchBox__btn">Search</button>
 					</div>
 
@@ -91,37 +97,46 @@
 
 				<div class="advancedSearch">
 					<h2 class="advancedSearch__title">Advanced Search</h2>
-					<select class="advancedSearch__select">
-						<option hidden>Country</option>
-						<option>1</option>
-						<option>2</option>
-					</select>
+					<form action="" method="" accept-charset="utf-8">
+						<div class="advancedSearch__selects">
+							<div>
+								<select class="advancedSearch__select advancedSearch__select--first">
+									<option hidden>Country</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
 
-					<select class="advancedSearch__select">
-						<option hidden>City</option>
-						<option>1</option>
-						<option>2</option>
-					</select>
+								<select class="advancedSearch__select">
+									<option hidden>City</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
 
-					<select class="advancedSearch__select">
-						<option hidden>Field of Operation</option>
-						<option>1</option>
-						<option>2</option>
-					</select>					
-					<select class="advancedSearch__select">
-						<option hidden>Rating</option>
-						<option>1</option>
-						<option>2</option>
-					</select>					
-					<select class="advancedSearch__select">
-						<option hidden>Sort by  &nbsp;&nbsp;|</option>
-						<option>1</option>
-						<option>2</option>
-					</select>
+								<select class="advancedSearch__select">
+									<option hidden>Field of Operation</option>
+									<option>1</option>
+									<option>2</option>
+								</select>					
+								<select class="advancedSearch__select advancedSearch__select--rating">
+									<option hidden>Rating</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
+							</div>
+							<div>
+								<select class="advancedSearch__select advancedSearch__select--last">
+									<option hidden>Sort by  &nbsp;&nbsp;|</option>
+									<option>1</option>
+									<option>2</option>
+								</select>
+							</div>
+						</div>
+					</form>
+
 				</div>
 
 				<div class="noTenderFlag">
-					<img src="img/flag.png" alt="">
+					<img src="img/flag.png" class="img-fluid noTenderFlag__img" alt="">
 					<h2 class="noTenderFlag__title">Sorry!</h2>
 					<p class="noTenderFlag__text">Unfortunately there is no Tender matching 
 					your criteria. </p>

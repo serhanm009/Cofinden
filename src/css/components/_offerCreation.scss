@@ -1,0 +1,155 @@
+.offerCreation {
+    margin-top: 25px;
+    border-width: 1px;
+    border-color: rgb(181, 190, 190);
+    border-style: solid;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+
+
+    &__title {
+        border-width: 0;
+        border-bottom-width: 1px;
+        border-color: rgb(216, 218, 219);
+        border-style: solid;
+        background-color: rgb(246, 250, 251);
+    }
+
+    &__titleText {
+        margin-bottom: 0;
+        padding: 10px;
+        padding-left: 25px;
+        font-weight: 600;   
+        font-size: 9.5pt;
+        font-family: "Segoe UI";
+        color: rgb(65, 65, 65);
+    }
+
+    &__upperText {
+        padding: 25px;
+        margin-bottom: 0;
+        font-size: 11pt;
+        font-family: "Segoe UI";
+        color: rgb(9, 9, 9);
+    }
+
+    &__offerType {
+        margin-left: 25px;
+    }
+    
+    .form-control{
+        font-size: 10.3pt;
+        font-family: "Segoe UI";
+        color: rgb(9, 9, 9);
+        width: 125px;
+    }
+
+    &__offerTitle {
+        margin-left: 25px;
+        font-size: 10pt;
+        font-weight: 600;   
+        font-family: "Segoe UI";
+        color: rgb(58, 58, 58);
+        padding-right: 25px; 
+        p {
+            margin-top: 20px;
+        }
+    }
+
+    input, textarea {
+        padding: 10px 17px 10px 17px;
+        resize: none;
+        border-width: 0.88px;
+        border-color: rgb(185, 179, 179);
+        border-style: solid;
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        height: 36px;
+        width: 100%;
+    }
+
+    &__inputForMakeAnOffer {
+        height: 167px !important;
+        font-size: 10pt;
+        font-family: "Segoe UI";
+    }
+
+    &__labelForAttachments {
+        margin-left: 25px;
+        font-size: 10pt;
+        font-weight: 600;   
+        font-family: "Segoe UI";
+        color: rgb(58, 58, 58);
+        
+        margin-top: 20px;
+    }
+
+    &__attachments {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    &__attachment {
+        font-size: 10pt;
+        font-family: "Segoe UI";
+        color: rgb(4, 4, 4);
+        margin: 7px;
+
+        p {
+            display: inline;
+        }
+
+        i {
+            color: #dbbe53;
+            font-size: 8pt;
+            margin-left: 7px;
+        }
+    }
+
+    &__offerFilesUpload {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    &__button {
+        outline: none;
+        width: 100%;
+        border-width: 2px;
+        border-color: rgb(219, 190, 83);
+        border-style: dashed;
+        background-color: rgb(235, 244, 246);
+        height: 55px;
+        font-size: 10pt;
+        font-family: "Segoe UI";
+        color: #545454;
+        span {
+            color:  rgb(219, 190, 83);
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    &__helpText {
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px; 
+        margin-bottom: 20px;
+        font-size: 10pt;
+        font-family: "Segoe UI";
+        color: rgb(9, 153, 153);
+    }
+
+    ::placeholder {
+        color: rgb(9, 153, 153);
+        font-size: 10pt;
+        font-family: "Segoe UI";
+        opacity: 1;
+    }
+
+
+}
+  
+  

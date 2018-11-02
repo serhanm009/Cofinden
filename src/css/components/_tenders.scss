@@ -57,6 +57,7 @@
 		&:hover {
 			color: #ffffff;
 			text-decoration: none;
+			background-color: rgb(219, 190, 59);
 		}
 		
 	}
@@ -68,7 +69,7 @@
 }
 
 .page-item {
-	margin-right: 15px;
+	margin-right: 8px;
 	margin-top: 40px;
 }
 .page-link {
@@ -78,7 +79,7 @@
 
 	&:hover {
 		color: #fff;
-		background-color: #3e8cca;
+		background-color: #9bb8d1;
 
 	}
 }

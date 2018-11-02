@@ -3,6 +3,10 @@
 	justify-content: space-between;
 	margin-top: 32px;
 
+	&__oneBtn {
+		cursor: pointer;
+	}
+
 	&__left {
 		width: 50%;
 	}
@@ -20,6 +24,9 @@
 		text-align: center;
 		padding: 40px 40px 30px 40px;
 		height: 300px;
+
+		display: flex;
+		flex-direction: column;
 	}
 
 	&__title {
@@ -75,10 +82,6 @@
 		align-items: center;
 	}
 
-	&__inputRight {
-		width: 0;
-		visibility: hidden;
-	}
 
 	&__label {
 		text-transform: uppercase;
@@ -90,6 +93,11 @@
 		margin-bottom: 23px;
 		cursor:pointer;
 		background-color: #fff;
+		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 
 	&__paragraph {

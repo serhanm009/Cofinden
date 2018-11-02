@@ -9,12 +9,17 @@
 		}
 	}
 	&__logo {
-		border: 1px solid #b7b7b7;
 		display: flex;
 		align-items: center;
 		padding: 0 12px;
 		@include font($suir, 1.9rem, #4d4d4d);
 
+		border-width: 1px;
+		border-color: rgb(196, 184, 184);
+		border-style: solid;
+		border-radius: 3px;
+		width: 69px;
+		height: 69px;
 	}
 
 	&__title {
@@ -41,7 +46,7 @@
 		padding: 0 290px;
 		text-align: center;
 		margin-bottom: 30px;
-		
+
 	}
 
 	&__rectangleLink {
@@ -53,8 +58,10 @@
 		&:hover {
 			color: #ffffff;
 			text-decoration: none;
+			background-color: rgb(219, 190, 59);
+
 		}
-		
+
 	}
 
 	&__section {

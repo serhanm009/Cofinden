@@ -1,0 +1,59 @@
+.outsource {
+	padding-bottom: 720px;
+	&__title {
+		@include font($suir, 18px, #1e1e1e)
+	}
+	&__subtitle {
+		@include font($suisl, 15px, #838383)
+	}
+	&__text {
+		@include font($suisl, 15px, #393939)
+		margin-top: 35px;
+	}
+
+	&__outsourcing {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__checkBox {
+		display: flex;
+		align-items: center;
+	}
+
+	&__link {
+		@include font($suisl, 15px, #3abff0)
+
+		&:hover {
+			color: #3abff0;
+			text-decoration: none;
+		}
+
+	}
+	&__get {
+		@include font($suir, 15px, #606060);
+
+	}
+
+	&__checkbox {
+		margin-right: 9px;
+	}
+
+	&__btn {
+		border:none;
+		cursor: pointer;
+		@include font($suir, 15px, #161515);
+
+		&:hover {
+			color: #161515;
+		}
+	}
+
+	&__btnBox {
+		text-align: right;
+		margin-top: 45px;
+	}
+
+
+}
+
