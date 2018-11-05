@@ -11,10 +11,15 @@
 	}
 
 	&__img {
+
+		width: 53px;
+		height: 48px;
+	}
+
+	&__logo {
 		border: 1px solid #d1cfda;
 		padding: 10px;
 		margin-right: 17px;
-
 	}
 
 	&__companyName {
@@ -24,6 +29,8 @@
 
 	&__pre {
 		margin-left: 16px;
+		width: 26px;
+		height: 21px;
 		
 	}
 
@@ -49,6 +56,7 @@
 
 	&__text {
 		@include font($suisl, 1.6rem, #456161);
+		margin-bottom: 30px;
 
 	}
 

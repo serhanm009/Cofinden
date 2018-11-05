@@ -17,12 +17,12 @@ var flatten = require('gulp-flatten'); //fondaki klasör altında olan fontları
 var path = {
     build: { //Burada işlemden sonra bitmiş dosyaların nereye koyulacağını gösteriyoruz
         html: 'build/',
-        js: 'build/js/',
-        vendor: 'build/js/vendor/', //src deki vendor klasörünü buildeki vendor klasörüne eklemek için 
-        css: 'build/css/main/',
-        images: 'build/img/',
-        fonts: 'build/fonts/',
-        libs: 'build/libs/' //bower ile src klasörüne yüklediğim dosyaları build klasörüne eklemek için 
+        js: 'build/assets/js/',
+        vendor: 'build/assets/js/vendor/', //src deki vendor klasörünü buildeki vendor klasörüne eklemek için 
+        css: 'build/assets/css/main/',
+        images: 'build/assets/img/',
+        fonts: 'build/assets/fonts/',
+        libs: 'build/assets/libs/' //bower ile src klasörüne yüklediğim dosyaları build klasörüne eklemek için 
     },
     src: { //Burası kaynaklar
         html: 'src/*.html', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html

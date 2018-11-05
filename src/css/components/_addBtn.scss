@@ -70,10 +70,11 @@
   border: 1px solid #32bef1;
   @include font($suir, 1.4rem, #5b5b5b);
   display: inline-block;
+  cursor: pointer;
 
 
   &:hover {
-    @include font($suir, 1.4rem, #fff);
+    @include font($suir, 1.4rem, #5b5b5b);
     background-color: #32bef1;
     text-decoration: none;
     border-color: #32bef1;
